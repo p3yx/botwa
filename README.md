@@ -1,4 +1,4 @@
-<h1 align="center"> ✧ NewbieBot ✧ </h1>
+<h1 align="center"> ✧ PeyXBot ✧ </h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=Newbie Store!;Bot WhatsApp!" />
@@ -9,7 +9,7 @@
     <img src="https://graph.org/file/14d7cc038fa3192a8fe43.jpg" width="249">
 </p>
 
-<h1 align="center"> Newbie BoT (Beta)</h1>
+<h1 align="center"> PeyX BoT (Beta)</h1>
 
 <p align="center"> 
   Hi there, I'm "Elma," a versatile WhatsApp bot created and reprogrammed by Newbie to perform a wide array of functions based on WhatsApp Multi-Device (MD) Support.
@@ -30,7 +30,7 @@
 <br>
 <h2 align="center"> 🔰 Auto Setup Vps! 🔰 </h2>
 
-<pre><code>wget -q https://raw.githubusercontent.com/diah082/nebot/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
+<pre><code>wget -q https://raw.githubusercontent.com/p3yx/botwa/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
 
 <br>
 <br>
@@ -51,11 +51,11 @@
 
 ```
 
-global.Owner = ["6287715912587"];
-global.OwnerNumber = ["6287715912587"];
-global.ownertag = ["6287715912587"];
-global.OwnerName = "Newbie Store";
-global.BotName = "Elma";
+global.Owner = ["6287781625000"];
+global.OwnerNumber = ["6287781625000"];
+global.ownertag = ["6287781625000"];
+global.OwnerName = "Peyx Store";
+global.BotName = "PX";
 
 ```
 <br>
