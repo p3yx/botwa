@@ -18,7 +18,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "XXXX"              // Add your paining number with country code example "6282326322300"; 
+global.pairNumber = "XXXX";                         // Add your paining number with country code example "6282326322300"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -35,10 +35,10 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(".") : ["/"];
 global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["6283151636921"];
 global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["6283151636921"];
 global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["6283151636921"];
-global.OwnerName = process.env.OWNER_NAME || "PeyX";
-global.BotName = process.env.BOT_NAME || "PX BOT";
-global.packname = process.env.PACK_NAME || "PX Bot";
-global.author = "By: PeyX";
+global.OwnerName = process.env.OWNER_NAME || "𒆜P͢e͢y͢x͢𒆜";
+global.BotName = process.env.BOT_NAME || "⪨༒𓊈𒆜𝘽𝙊𝙏𝙕 𝙋𝙓𒆜𓊉༒⪩";
+global.packname = process.env.PACK_NAME || "𝘽𝙊𝙏𝙕 𝙋𝙓";
+global.author = "By: 𒆜P͢e͢y͢x͢𒆜";
 global.BotSourceCode = "https://github.com/p3yx/botwa";
 global.SupportGroupLink = "https://chat.whatsapp.com/HNACwQRxuoY7rVg6q12d4m";
 
