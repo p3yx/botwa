@@ -1,7 +1,7 @@
 <h1 align="center"> ✧ PeyXBot ✧ </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=Newbie Store!;Bot WhatsApp!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=Peyx Store!;Bot WhatsApp!" />
 </p>
 
 <p align="center">
