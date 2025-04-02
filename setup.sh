@@ -112,20 +112,20 @@ case "\$opsi" in
 1)
 clear
 echo "Menjalankan Login Bot..."
-cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
+cd /root/botwa &> /dev/null || { echo "Direktori /root/botwa tidak ditemukan!"; exit 1; }
 rm -r A17-SESSION &> /dev/null
 rm config.js &> /dev/null
-wget -q -O /root/Nebot/config.js "https://raw.githubusercontent.com/p3yx/botwa/main/config.js" &> /dev/null
+wget -q -O /root/botwa/config.js "https://raw.githubusercontent.com/p3yx/botwa/main/config.js" &> /dev/null
 echo ""
 read -p " Masukan Nomor Wa Untuk Bot Di Awali 62     : " Login
-sed -i "s/XXXX/\${Login}/" /root/Nebot/config.js
+sed -i "s/XXXX/\${Login}/" /root/botwa/config.js
 pm2 del all &> /dev/null
 npm start
 cd || exit
 ;;
 2)
 echo "Menjalankan Start Bot..."
-cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
+cd /root/botwa &> /dev/null || { echo "Direktori /root/botwa tidak ditemukan!"; exit 1; }
 pm2 start index.js &> /dev/null
 pm2 save &> /dev/null
 pm2 startup &> /dev/null
@@ -137,7 +137,7 @@ pm2 restart all &> /dev/null
 ;;
 4)
 echo "Mengupdate Bot..."
-cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
+cd /root/botwa &> /dev/null || { echo "Direktori /root/botwa tidak ditemukan!"; exit 1; }
 rm Core.js &> /dev/null
 wget -q https://raw.githubusercontent.com/p3yx/botwa/main/Core.js &> /dev/null
 wget -q https://raw.githubusercontent.com/p3yx/botwa/main/index.js &> /dev/null
@@ -147,7 +147,7 @@ cd || exit
 5)
 echo "Mengupdate Menu Bot..."
 rm -r botwa* &> /dev/null
-wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip &> /dev/null
+wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip &> /dev/null
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" &> /dev/null \
 && chmod +x /usr/bin/enc &> /dev/null
 unzip botwa.zip &> /dev/null
