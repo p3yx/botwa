@@ -3081,7 +3081,7 @@ case 'setpromo': {
 }
 
 // SET TEXT AUTOSCRIPT
-case 'setautoscript': {
+case 'setautosc': {
     if (isBan) return reply(mess.banned);
     if (isBanChat) return reply(mess.bangc);
     if (!isCreator) return reply(mess.botowner);
@@ -8618,9 +8618,9 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}listmenu
 ┃  ⌯   ${prefix}bug (config)
 ┃  ⌯   ${prefix}menuserver
-┃  ⌯   ${prefix}cekpromo
-┃  ⌯   ${prefix}cekharga
-┃  ⌯   ${prefix}cekvps
+┃  ⌯   ${prefix}promo
+┃  ⌯   ${prefix}hargavpn
+┃  ⌯   ${prefix}hargavps
 ┃  ⌯   ${prefix}cekautosc
 
 ┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
@@ -8635,6 +8635,9 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}joinall off
 ┃  ⌯   ${prefix}server
 ┃  ⌯   ${prefix}restart
+┃  ⌯   ${prefix}setvps
+┃  ⌯   ${prefix}setautosc
+┃  ⌯   ${prefix}setrecode
 ┃  
 ┏ ┅ ━━〔 ♨ *PAYMENT* ♨ 〕━ ┅
 ┃                    
@@ -8679,7 +8682,7 @@ A17.sendMessage(m.chat, {
         break;
 
 
-case 'ownermenu':
+case 'tutor':
 case 'tutorial': {
         if (!isBan) return reply(mess.banned);
         if (!isBanChat) return reply(mess.bangc);
@@ -9228,7 +9231,7 @@ Terimakasih`
         break;
 		
 		//HARGA VPS
-      case 'vps': case 'cekvps': {
+      case 'vps': case 'hargavps': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         try {
@@ -9398,7 +9401,7 @@ _Jasa Recode_
 }
 		//HARGA SSH
 		
-case 'cekharga': {
+case 'hargavpn': {
     if (isBan) return reply(mess.banned); // Cek jika user diblokir
     if (isBanChat) return reply(mess.bangc); // Cek jika grup diblokir
 
