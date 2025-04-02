@@ -92,8 +92,8 @@ rm -r /root/setup.sh* > /dev/null
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e " Welcome To PeyXBOT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup Bot WhatsApp On Your Server"
-echo -e " Author : ${green}Ferdiansyah © ${NC}${YELLOW}(${NC} ${green} Peyx Vpn ${NC}${YELLOW})${NC}"
-echo -e " © Recode By Ferdiansyah ®${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e " Author : ${green}Ferdiansyah © ${NC}${YELLOW}(${NC}${green} Peyx Vpn ${NC}${YELLOW})${NC}"
+echo -e " © Recode By Ferdiansyah ®${YELLOW}(${NC} 2025 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
