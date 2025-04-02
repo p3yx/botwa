@@ -8624,13 +8624,17 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}cekautosc
 
 ┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
-┃  ⌯   ${prefix}list
+┃  
+┃  ⌯   ${prefix}ping
 ┃  ⌯   ${prefix}setpromo
 ┃  ⌯   ${prefix}promobot
 ┃  ⌯   ${prefix}addmod
+┃  ⌯   ${prefix}delmod
 ┃  ⌯   ${prefix}listonline
-┃  ⌯   ${prefix}joinall
+┃  ⌯   ${prefix}joinall on
+┃  ⌯   ${prefix}joinall off
 ┃  ⌯   ${prefix}server
+┃  ⌯   ${prefix}restart
 ┃  
 ┏ ┅ ━━〔 ♨ *PAYMENT* ♨ 〕━ ┅
 ┃                    
