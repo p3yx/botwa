@@ -73,7 +73,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Clone repository and install dependencies
 git clone https://github.com/p3yx/botwa.git Nebot
-wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip
+wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 unzip botwa.zip
 chmod +x botwa/*
