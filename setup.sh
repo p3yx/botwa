@@ -112,11 +112,11 @@ echo -e "Mohon Tunggu Jangan Tutup Koneksi Anda Dengan Server"
 sleep 3
 cd Nebot
 npm i
-limit
+botwa
 END
 chmod +x /usr/local/bin/setupbot
 
-cat >/usr/local/bin/limit <<-END
+cat >/usr/local/bin/botwa <<-END
 #!/bin/bash
 
 # Menu Utama
