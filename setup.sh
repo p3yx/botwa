@@ -148,7 +148,7 @@ cd || exit
 5)
 echo "Mengupdate Menu Bot..."
 rm -r botwa* &> /dev/null
-wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip &> /dev/null
+wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip &> /dev/null
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" &> /dev/null \
 && chmod +x /usr/bin/enc &> /dev/null
 unzip botwa.zip &> /dev/null
