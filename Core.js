@@ -8618,6 +8618,8 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}listmenu
 ┃  ⌯   ${prefix}bug (config)
 ┃  ⌯   ${prefix}menuserver
+┃  ⌯   ${prefix}server
+┃  ⌯   ${prefix}speedtest
 ┃  ⌯   ${prefix}promo
 ┃  ⌯   ${prefix}hargavpn
 ┃  ⌯   ${prefix}hargavps
@@ -8626,6 +8628,7 @@ A17.sendMessage(m.chat, {
 ┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
 ┃  
 ┃  ⌯   ${prefix}ping
+┃  ⌯   ${prefix}all
 ┃  ⌯   ${prefix}setpromo
 ┃  ⌯   ${prefix}promosibot
 ┃  ⌯   ${prefix}addmod
@@ -8633,7 +8636,6 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}listonline
 ┃  ⌯   ${prefix}joinall on
 ┃  ⌯   ${prefix}joinall off
-┃  ⌯   ${prefix}server
 ┃  ⌯   ${prefix}restart
 ┃  ⌯   ${prefix}setvps
 ┃  ⌯   ${prefix}setautosc
