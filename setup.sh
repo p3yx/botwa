@@ -114,9 +114,9 @@ cd Nebot
 npm i
 limit
 END
-chmod +x /usr/local/sbin/setupbot
+chmod +x /usr/local/bin/setupbot
 
-cat >/usr/local/sbin/limit <<-END
+cat >/usr/local/bin/limit <<-END
 #!/bin/bash
 
 # Menu Utama
