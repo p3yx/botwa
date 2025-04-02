@@ -58,8 +58,9 @@ apt update && apt install -y git ffmpeg imagemagick
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-git clone https://github.com/p3yx/botwa.git Nebot
+git clone https://github.com/p3yx/botwa.git
 wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip
+wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 unzip botwa.zip
 chmod +x botwa/*
 rm -rf /root/botwa/*~
@@ -146,7 +147,7 @@ cd || exit
 5)
 echo "Mengupdate Menu Bot..."
 rm -r botwa* &> /dev/null
-wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip &> /dev/null
+wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip &> /dev/null
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" &> /dev/null \
 && chmod +x /usr/bin/enc &> /dev/null
 unzip botwa.zip &> /dev/null
