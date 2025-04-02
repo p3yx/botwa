@@ -72,27 +72,27 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Clone repository and install dependencies
-git clone https://github.com/p3yx/botwa.git
+git clone https://github.com/Diah082/Nebot.git
 wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-7z x -p px botwa.zip
-chmod +x botwa/*
-enc botwa/*
-rm -rf /root/botwa/*~
-rm -rf /root/botwa/gz*
-mv botwa/* /usr/bin/
-rm -rf botwa
-rm -rf botwa.zip
+7z x -px botwa.zip
+chmod +x menubotwa/*
+enc menubotwa/*
+rm -rf /root/menubotwa/*~
+rm -rf /root/menubotwa/gz*
+mv menubotwa/* /usr/bin/
+rm -rf menubotwa
+rm -rf menubotwa.zip
 
 # Create setupbot script
-cat >/usr/local/sbin/setupbot <<-END
+cat >/usr/local/bin/setupbot <<-END
 #!/bin/bash
 clear
 rm -r /root/setup.sh* > /dev/null
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e " Welcome To PeyXBOT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup Bot WhatsApp On Your Server"
-echo -e " Author : ${green}Ferdiansyah © ${NC}${YELLOW}(${NC} ${green} PXVPN ${NC}${YELLOW})${NC}"
+echo -e " Author : ${green}Ferdiansyah © ${NC}${YELLOW}(${NC} ${green} Peyx Vpn ${NC}${YELLOW})${NC}"
 echo -e " © Recode By Ferdiansyah ®${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
@@ -136,13 +136,13 @@ while true; do
         1)
             clear
             echo "Menjalankan Login Bot..."
-            cd /root/botwa &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
+            cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
             rm -r A17-SESSION &> /dev/null
             rm config.js &> /dev/null
-            wget -q -O /root/botwa/config.js "https://raw.githubusercontent.com/p3yx/botwa/main/config.js" &> /dev/null
+            wget -q -O /root/Nebot/config.js "https://raw.githubusercontent.com/diah082/Nebot/main/config.js" &> /dev/null
             echo ""
             read -p " Masukan Nomor Wa Untuk Bot Di Awali 62     : " Login
-            sed -i "s/XXXX/\${Login}/" /root/botwa/config.js
+            sed -i "s/XXXX/\${Login}/" /root/Nebot/config.js
             pm2 del all &> /dev/null
             npm start 
             cd || exit
@@ -150,7 +150,7 @@ while true; do
 
         2)
             echo "Menjalankan Start Bot..."
-            cd /root/botwa &> /dev/null || { echo "Direktori /root/botwa tidak ditemukan!"; exit 1; }
+            cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
             pm2 start index.js &> /dev/null
             pm2 save &> /dev/null
             pm2 startup &> /dev/null
@@ -164,10 +164,10 @@ while true; do
 
         4)
             echo "Mengupdate Bot..."
-            cd /root/botwa &> /dev/null || { echo "Direktori /root/botwa tidak ditemukan!"; exit 1; }
+            cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
             rm Core.js &> /dev/null
-            wget -q https://raw.githubusercontent.com/p3yx/botwa/main/Core.js &> /dev/null
-			wget -q https://raw.githubusercontent.com/p3yx/botwa/main/index.js &> /dev/null
+            wget -q https://raw.githubusercontent.com/Diah082/Nebot/main/Core.js &> /dev/null
+			wget -q https://raw.githubusercontent.com/Diah082/Nebot/main/index.js &> /dev/null
             pm2 restart all &> /dev/null
             cd || exit
             ;;
@@ -175,17 +175,17 @@ while true; do
         5)
             echo "Mengupdate Menu Bot..."
             rm -r menubotwa* &> /dev/null
-            wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip &> /dev/null
+            wget -q https://raw.githubusercontent.com/diah082/vip/main/menu/menubotwa.zip &> /dev/null
             wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" &> /dev/null \
                 && chmod +x /usr/bin/enc &> /dev/null
-            7z x -p123@Elma! botwa.zip &> /dev/null
-            chmod +x botwa/* &> /dev/null
-            enc botwa/* &> /dev/null
-            rm -rf /root/botwa/*~ &> /dev/null
-            rm -rf /root/botwa/gz* &> /dev/null
-            mv botwa/* /usr/bin/ &> /dev/null
-            rm -rf botwa &> /dev/null
-            rm -rf botwa.zip &> /dev/null
+            7z x -p123@Elma! menubotwa.zip &> /dev/null
+            chmod +x menubotwa/* &> /dev/null
+            enc menubotwa/* &> /dev/null
+            rm -rf /root/menubotwa/*~ &> /dev/null
+            rm -rf /root/menubotwa/gz* &> /dev/null
+            mv menubotwa/* /usr/bin/ &> /dev/null
+            rm -rf menubotwa &> /dev/null
+            rm -rf menubotwa.zip &> /dev/null
             ;;
 
         0)
@@ -203,7 +203,7 @@ while true; do
 done
 
 END
-chmod +x /usr/local/bin/limit
+chmod +x /usr/local/bin/menubot
 }
 check_ram() {
     ram_kb=$(grep MemTotal /proc/meminfo | awk '{print $2}')
