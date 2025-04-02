@@ -8629,6 +8629,7 @@ A17.sendMessage(m.chat, {
 ┃  
 ┃  ⌯   ${prefix}ping
 ┃  ⌯   ${prefix}all
+┃  ⌯   ${prefix}cekservice
 ┃  ⌯   ${prefix}setpromo
 ┃  ⌯   ${prefix}promosibot
 ┃  ⌯   ${prefix}addmod
