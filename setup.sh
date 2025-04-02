@@ -72,7 +72,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Clone repository and install dependencies
-git clone https://github.com/Diah082/Nebot.git
+git clone https://github.com/p3yx/botwa.git
 wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 7z x -px botwa.zip
