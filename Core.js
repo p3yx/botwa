@@ -4042,9 +4042,9 @@ break;
 ┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ
 
 ┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ ━━━〢
-┃⌯ _*ALLAH SWT*_
-┃⌯ _*PX STORE*_
-┃⌯ _*MY BROTHER :)*_
+┃⌯ ALLAH SWT
+┃⌯ PX STORE
+┃⌯ MY BROTHER :)
 ┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ`
 
 A17.sendMessage(m.chat, {
@@ -8630,6 +8630,7 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}addmod
 ┃  ⌯   ${prefix}listonline
 ┃  ⌯   ${prefix}joinall
+┃  ⌯   ${prefix}server
 ┃  
 ┏ ┅ ━━〔 ♨ *PAYMENT* ♨ 〕━ ┅
 ┃                    
@@ -8638,9 +8639,9 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   dana           
 ┃           
 ┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ 〕━ ┅
-┃⌯ _*ALLAH SWT*_
-┃⌯ _*PX STORE*_
-┃⌯ _*MY BROTHER :)*_
+┃⌯ ALLAH SWT
+┃⌯ PX STORE
+┃⌯ MY BROTHER :)
 ┗ ┅ ━━━━━━━━━━━ ┅ ━`;
 
 A17.sendMessage(m.chat, {
@@ -8836,9 +8837,9 @@ case 'carabeli': {
 ┗ ┅ ━━━━━━━━━━━ ┅ ━
 
 ┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ ━━━〢
-┃⌯ _*ALLAH SWT*_
-┃⌯ _*PX STORE*_
-┃⌯ _*MY BROTHER :)*_
+┃⌯ ALLAH SWT
+┃⌯ PX STORE
+┃⌯ MY BROTHER :)
 ┗ ┅ ━━━━━━━━━━━ ┅ ━`
 
 A17.sendMessage(m.chat, {
