@@ -18,12 +18,12 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "XXXX";                         // Add your paining number with country code example "6282326322300"; 
+global.pairNumber = "6283151636921";                         // Add your paining number with country code example "6282326322300"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
 global.mongodb = process.env.MONGODB || "";                 // Mongodb url.
-global.website = "https://pxstore.my.id"; 
+global.website = "https://whatsapp.com/channel/0029Vaj7rCF2phHIcXbV3v1N"; 
 global.github = "https://github.com/p3yx";
 
 
@@ -32,13 +32,13 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(".") : ["/"];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["6287781625000"];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["6287781625000"];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["6287781625000"];
-global.OwnerName = process.env.OWNER_NAME || "Newbie";
-global.BotName = process.env.BOT_NAME || "MRZ-STORE";
-global.packname = process.env.PACK_NAME || "PeyX Bot";
-global.author = "By: Peyx";
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["6283151636921"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["6283151636921"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["6283151636921"];
+global.OwnerName = process.env.OWNER_NAME || "PeyX";
+global.BotName = process.env.BOT_NAME || "PX-BOT";
+global.packname = process.env.PACK_NAME || "PX Bot";
+global.author = "By: PeyX";
 global.BotSourceCode = "https://github.com/p3yx/botwa";
 global.SupportGroupLink = "https://chat.whatsapp.com/HNACwQRxuoY7rVg6q12d4m";
 

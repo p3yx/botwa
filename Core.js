@@ -440,7 +440,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
       // ㅤㅤ〄ㅤㅤ〘 A17 Personal Edition 〙ㅤㅤ〄ㅤㅤㅤㅤ
       // ㅤㅤㅤ〘ㅤ Auto Uptime: ${uptimeFormatted}ㅤ〙`;
 
-     function _0x582b(_0xabb6f8, _0x12cdd8) { const _0x58e890 = _0x58e8(); return _0x582b = function (_0x582b90, _0x4387b3) { _0x582b90 = _0x582b90 - 0x189; let _0x932613 = _0x58e890[_0x582b90]; return _0x932613; }, _0x582b(_0xabb6f8, _0x12cdd8); } function _0x58e8() { const _0x109554 = ['12896370RDSmnX', '3BgvPel', '189HbmdoW', '18854HvEPNh', '11TZHUID', '9125326EcyeIg', '464328lPaAMf', '3400722cbWEOK', '2263175KIczdo', '12TaHNqM', '2521564eqJRHK']; _0x58e8 = function () { return _0x109554; }; return _0x58e8(); } (function (_0x429d7b, _0x532ab5) { const _0x527567 = _0x582b, _0x130eb4 = _0x429d7b(); while (!![]) { try { const _0x75c57a = -parseInt(_0x527567(0x18b)) / 0x1 + -parseInt(_0x527567(0x192)) / 0x2 * (-parseInt(_0x527567(0x189)) / 0x3) + parseInt(_0x527567(0x191)) / 0x4 * (-parseInt(_0x527567(0x190)) / 0x5) + -parseInt(_0x527567(0x18f)) / 0x6 + parseInt(_0x527567(0x18d)) / 0x7 + parseInt(_0x527567(0x18e)) / 0x8 * (-parseInt(_0x527567(0x18a)) / 0x9) + parseInt(_0x527567(0x193)) / 0xa * (parseInt(_0x527567(0x18c)) / 0xb); if (_0x75c57a === _0x532ab5) break; else _0x130eb4['push'](_0x130eb4['shift']()); } catch (_0x19ea04) { _0x130eb4['push'](_0x130eb4['shift']()); } } }(_0x58e8, 0xa8dae)); const status = '〄ㅤㅤ〘\x20NEWBIE\x20STORE\x20VPN\x20〙ㅤㅤ〄';
+     function _0x582b(_0xabb6f8, _0x12cdd8) { const _0x58e890 = _0x58e8(); return _0x582b = function (_0x582b90, _0x4387b3) { _0x582b90 = _0x582b90 - 0x189; let _0x932613 = _0x58e890[_0x582b90]; return _0x932613; }, _0x582b(_0xabb6f8, _0x12cdd8); } function _0x58e8() { const _0x109554 = ['12896370RDSmnX', '3BgvPel', '189HbmdoW', '18854HvEPNh', '11TZHUID', '9125326EcyeIg', '464328lPaAMf', '3400722cbWEOK', '2263175KIczdo', '12TaHNqM', '2521564eqJRHK']; _0x58e8 = function () { return _0x109554; }; return _0x58e8(); } (function (_0x429d7b, _0x532ab5) { const _0x527567 = _0x582b, _0x130eb4 = _0x429d7b(); while (!![]) { try { const _0x75c57a = -parseInt(_0x527567(0x18b)) / 0x1 + -parseInt(_0x527567(0x192)) / 0x2 * (-parseInt(_0x527567(0x189)) / 0x3) + parseInt(_0x527567(0x191)) / 0x4 * (-parseInt(_0x527567(0x190)) / 0x5) + -parseInt(_0x527567(0x18f)) / 0x6 + parseInt(_0x527567(0x18d)) / 0x7 + parseInt(_0x527567(0x18e)) / 0x8 * (-parseInt(_0x527567(0x18a)) / 0x9) + parseInt(_0x527567(0x193)) / 0xa * (parseInt(_0x527567(0x18c)) / 0xb); if (_0x75c57a === _0x532ab5) break; else _0x130eb4['push'](_0x130eb4['shift']()); } catch (_0x19ea04) { _0x130eb4['push'](_0x130eb4['shift']()); } } }(_0x58e8, 0xa8dae)); const status = '〄ㅤㅤ〘\x20PX\x20STORE\x20VPN\x20〙ㅤㅤ〄';
 
       A17.setStatus(status); // Set the status using A17.setStatus or your equivalent method
 
@@ -699,8 +699,8 @@ Typed *surrender* to surrender and admited defeat`
     const responses = {
 
       gcvip: `https://chat.whatsapp.com/HNACwQRxuoY7rVg6q12d4m\n\nSilahkan Join Grup Member Vip Kak, Grup ini untuk info server, Kontak Alternatif Admin, Dan info Info penting lainnya`,
-      playloaden: `GET / HTTP/1.1[crlf]Host: [host][crlf]PATCH / HTTP/1.1[crlf]Host: Bug.com[crlf]Upgrade: websocket [crlf] User-Agent: [ua][crlf][crlf]Content-Length: CONFIG BY. NEWBIE[crlf][crlf][split]200 OK [crlf]`,
-      playloadws: `GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]User-Agent: [ua][crlf][crlf][split]CONFIG BY. NEWBIE[crlf][crlf]`,
+      playloaden: `GET / HTTP/1.1[crlf]Host: [host][crlf]PATCH / HTTP/1.1[crlf]Host: Bug.com[crlf]Upgrade: websocket [crlf] User-Agent: [ua][crlf][crlf]Content-Length: CONFIG BY. PX[crlf][crlf][split]200 OK [crlf]`,
+      playloadws: `GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]User-Agent: [ua][crlf][crlf][split]CONFIG BY. PX[crlf][crlf]`,
       hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
       kai: `My Boss is lost in another Multiverse, and I lost connection with him...`,
       runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
@@ -777,7 +777,7 @@ deviceListMetadata: {},
 deviceListMetadataVersion: 2
 }, interactiveMessage: proto.Message.InteractiveMessage.fromObject({
 body: proto.Message.InteractiveMessage.Body.fromObject({
-text: "*All Transaksi Open ✅*\n\n MRZ STORE Menyediakan Produk & Jasa Dibawah Ini ⬇️"
+text: "*All Transaksi Open ✅*\n\n*PeyX Store* Menyediakan Produk & Jasa Dibawah Ini ⬇️"
 }), 
 contextInfo: {
 mentionedJid: mention
@@ -878,8 +878,8 @@ await A17.relayMessage(jid, msgii.message, {messageId: msgii.key.id})
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "❤", key: m.key } })
 
-        let { data } = await axios.get('https://api.github.com/repos/p3yx/botwa');
-        teks = `*NewbieBot Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/Diah082/NewbieBot\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+        let { data } = await axios.get('https://api.github.com/repos/Diah082/Nebot');
+        teks = `*PxBot Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/Diah082/NewbieBot\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
           let buttons = [
           {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
           ] 
@@ -892,12 +892,12 @@ try {
         headerType: 4,
         contextInfo: {
             externalAdreply: {
-                title: "Powered by Newbie",
+                title: "Powered by Peyx",
                 body: " ",
                 thumbnail: Thumb,
                 mediaType: 1,
-                mediaUrl: 'github.com/p3yx/botwa',
-                sourceUrl: "github.com/p3yx/botwa"
+                mediaUrl: 'github.com/Diah082/Nebot',
+                sourceUrl: "github.com/Diah082/Nebot"
             }
         }
     };
@@ -975,7 +975,7 @@ try {
 
       case 'shutdown': case 'sleep':
         if (!isCreator) return reply(mess.owner)
-        if (isBanChat) return reply(mess.bangc);
+        if (isCreator) return reply(mess.bangc);
         if (!isCreator) return reply(mess.owner)
         await A17.sendMessage(from, { react: { text: "⚠️", key: m.key } })
 
@@ -1017,7 +1017,7 @@ try {
         try {
 
           await A17.sendMessage(from, { react: { text: "❤", key: m.key } });
-          let teks = `*Newbie Store*`;
+          let teks = `*Peyx Store*`;
 
           let msg = generateWAMessageFromContent(m.key.remoteJid, {
             viewOnceMessage: {
@@ -1031,7 +1031,7 @@ try {
                     text: teks
                   }),
                   footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "                    Powered by Newbie"
+                    text: "                    Powered by Peyx"
                   }),
                   header: proto.Message.InteractiveMessage.Header.create({
                     title: "                 Selamat Datang Di",
@@ -1075,7 +1075,7 @@ try {
       case 'sysinfo': {
 
         const respon = `
-  🤖 *Newbie Bot Server Info* 🤖
+  🤖 *PeyX Bot Server Info* 🤖
   
   *System*: ${systemName}
   
@@ -1099,8 +1099,8 @@ try {
 
       case 'ipcheck':
       case 'checkip':
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
+        if (isCreator) return reply(mess.banned);
+        if (isCreator) return reply(mess.bangc);
 
         if (!args[0]) {
           return reply(`Please provide an IP address to check.\nExample: ${prefix}ipcheck 207.97.227.239`);
@@ -1140,8 +1140,8 @@ try {
 
       case 'serverip':
       case 'ip':
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
+        if (isCreator) return reply(mess.banned);
+        if (isCreator) return reply(mess.bangc);
 
         async function getServerIp() {
           try {
@@ -1196,8 +1196,8 @@ try {
 
 case 'domaincheck':
 case 'checkdomain':
-  if (isBan) return reply(mess.banned);
-  if (isBanChat) return reply(mess.bangc);
+  if (isCreator) return reply(mess.banned);
+  if (isCreator) return reply(mess.bangc);
 
   if (!args[0]) {
     return reply(`Please provide a domain to check.\nExample: ${prefix}domaincheck example.com`);
@@ -1255,8 +1255,8 @@ ISP: ${locationData.isp}
 
 
       case 'ls':
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
+        if (isCreator) return reply(mess.banned);
+        if (isCreator) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "📂", key: m.key } });
 
         const currentDir = process.cwd(); // Get the current working directory
@@ -1278,8 +1278,8 @@ ISP: ${locationData.isp}
       case 'statusevent':
       case 'autostatusseen':
 
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
+        if (isCreator) return reply(mess.banned);
+        if (isCreator) return reply(mess.bangc);
         if (!isCreator) return reply(mess.botowner)
         A17.sendMessage(from, { react: { text: '❤', key: m.key } });
 
@@ -1302,8 +1302,8 @@ ISP: ${locationData.isp}
 
 
       case 'ban': {
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
+        if (isCreator) return reply(mess.banned);
+        if (isCreator) return reply(mess.bangc);
         if (!isCreator) return reply(mess.botowner)
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
         if (!args[0]) return reply(`Select add or del (add to ban, del to unban), For Example: reply *${prefix}ban add* to the user you want to ban.`)
@@ -1755,7 +1755,7 @@ ISP: ${locationData.isp}
              const fruit2 = ["🍎", "🍇", "🥥"]  
              const fruit3 = ["🍇", "🥥", "🍎"]         
              const fruit4 = ["🍇", "🍎", "🥥"]
-             const lose = ['*You suck at playing this game*\n\n_--> 🍍-🥥-🍎_', '*Totally out of line*\n\n_--> 🥥-🍎-🍍_', '*Are you a newbie?*\n\n_--> 🍎-🍍-🥥_']
+             const lose = ['*You suck at playing this game*\n\n_--> 🍍-🥥-🍎_', '*Totally out of line*\n\n_--> 🥥-🍎-🍍_', '*Are you a peyx?*\n\n_--> 🍎-🍍-🥥_']
              const smallLose = ['*You cannot harvest coconut 🥥 in a pineapple 🍍 farm*\n\n_--> 🍍>🥥<🍍_', '*Apples and Coconut are not best Combo*\n\n_--> 🍎>🥥<🍎_', '*Coconuts and Apple are not great deal*\n\n_--> 🥥>🍎<🥥_']
              const won = ['*You harvested a basket of*\n\n_--> 🍎+🍎+🍎_', '*Impressive, You must be a specialist in plucking coconuts*\n\n_--> 🥥+🥥+🥥_', '*Amazing, you are going to be making pineapple juice for the family*\n\n_--> 🍍+🍍+🍍_']             
              const near = ['*Wow, you were so close to winning pineapples*\n\n_--> 🍎-🍍+🍍_', '*Hmmm, you were so close to winning Apples*\n\n_--> 🍎+🍎-🍍_']          
@@ -1824,7 +1824,7 @@ ISP: ${locationData.isp}
           const fruit2 = ["🍎", "🍇", "🥥"]
           const fruit3 = ["🍇", "🥥", "🍎"]
           const fruit4 = ["🍇", "🥥", "🍎"]
-          const lose = ['*You suck at playing this game*\n\n_--> 🍍-🥥-🍎_', '*Totally out of line*\n\n_--> 🥥-🍎-🍍_', '*Are you a newbie?*\n\n_--> 🍎-🍍-🥥_']
+          const lose = ['*You suck at playing this game*\n\n_--> 🍍-🥥-🍎_', '*Totally out of line*\n\n_--> 🥥-🍎-🍍_', '*Are you a peyx?*\n\n_--> 🍎-🍍-🥥_']
           const smallLose = ['*You cannot harvest coconut 🥥 in a pineapple 🍍 farm*\n\n_--> 🍍>🥥<🍍_', '*Apples and Coconut are not best Combo*\n\n_--> 🍎>🥥<🍎_', '*Coconuts and Apple are not great deal*\n\n_--> 🥥>🍎<🥥_']
           const won = ['*You harvested a basket of*\n\n_--> 🍎+🍎+🍎_', '*Impressive, You must be a specialist in plucking coconuts*\n\n_--> 🥥+🥥+🥥_', '*Amazing, you are going to be making pineapple juice for the family*\n\n_--> 🍍+🍍+🍍_']
           const near = ['*Wow, you were so close to winning pineapples*\n\n_--> 🍎-🍍+🍍_', '*Hmmm, you were so close to winning Apples*\n\n_--> 🍎+🍎-🍍_']
@@ -3064,7 +3064,7 @@ break;
         }
       }
         break;
-		//MOD NEWBIE// SET TEXT PROMO
+		//MOD PEYX// SET TEXT PROMO
 case 'setpromo': {
     if (isBan) return reply(mess.banned);
     if (isBanChat) return reply(mess.bangc);
@@ -3198,7 +3198,7 @@ case 'promo': case 'list': case 'produk': {
 
         // Kirim pesan VPS jika ada
         await sendFormattedMessage(
-            "VPS Newbie",
+            "VPS Peyx",
             vpsText,
             'https://telegra.ph/file/5dcae7a3d0b3c4d3f60c4.jpg'
         );
@@ -3420,7 +3420,7 @@ case 'loginxray': {
 }
 
 case 'addssh': {
-    if (!isCreator) return reply(mess.botowner);
+    if (isBan) return reply(mess.banned);
     if (!args.join("")) return reply(`MOHON INPUT *NAMA.PASSWORD.LIMITIP.MASAAKTIF*`);
     
     // Parsing input menjadi array berdasarkan delimiter '.'
@@ -3544,7 +3544,6 @@ break;
         break;
 				
       case 'trialssh': case 'trialakun': {
-        if (!isCreator) return reply(mess.botowner)
         if (!args.join("")) return reply(`MOHON INPUT *MENIT*`)
 		A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
         m.reply(`Plz Wait ${pushname} Create Account Trial... ⚙️`)
@@ -3770,7 +3769,6 @@ break;
 
 			//TRIAL XRAY
       case 'trialvmess': {
-        if (!isCreator) return reply(mess.botowner)
         if (!args.join("")) return reply(`MOHON INPUT *MENIT*`)
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
         m.reply(`Plz Wait ${pushname} Create Account Trial Vmess... ⚙️`)
@@ -3793,7 +3791,6 @@ break;
         break;
 
 	  case 'trialvless': {
-        if (!isCreator) return reply(mess.botowner)
         if (!args.join("")) return reply(`MOHON INPUT *MENIT*`)
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
         m.reply(`Plz Wait ${pushname} Create Account Trial Vless... ⚙️`)
@@ -3816,7 +3813,6 @@ break;
         break;
 		
 	  case 'trialtrojan': {
-        if (!isCreator) return reply(mess.botowner)
         if (!args.join("")) return reply(`MOHON INPUT *MENIT*`)
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
         m.reply(`Plz Wait ${pushname} Create Account Trial Trojan... ⚙️`)
@@ -4046,9 +4042,9 @@ break;
 ┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ
 
 ┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ ━━━〢
-┃⌯ALLAH SWT
-┃⌯NEWBIE STORE
-┃⌯MY BROTHER :)
+┃⌯ _*ALLAH SWT*_
+┃⌯ _*PX STORE*_
+┃⌯ _*MY BROTHER :)*_
 ┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ`
 
 A17.sendMessage(m.chat, {
@@ -4058,7 +4054,7 @@ A17.sendMessage(m.chat, {
                     showAdAttribution: true,
                     title: BotName,
                     body: `Follow Saluran Kami`,
-                    thumbnailUrl: 'https://telegra.ph/file/a9398dd23261b48b5b5c2.jpg',
+                    thumbnailUrl: 'https://telegra.ph/file/d39104297903c204c2311.jpg',
                     sourceUrl: global.website,
                     mediaType: 1,
                     renderMediumThumbnail: true
@@ -8086,7 +8082,7 @@ case 'bcgroup': {
                             externalAdReply: {
                                 showAdAttribution: true,
                                 title: `${nowtime}`,
-                                body: 'Promo Terbaru dari Newbie Store',
+                                body: 'Promo Terbaru dari Peyx Store',
                                 thumbnail: global.Thumb,
                                 sourceUrl: global.website,
                                 mediaType: 1,
@@ -8104,7 +8100,7 @@ case 'bcgroup': {
                             externalAdReply: {
                                 showAdAttribution: true,
                                 title: `${nowtime}`,
-                                body: 'Autoscript Tunneling by Newbie Store',
+                                body: 'Autoscript Tunneling by Peyx Store',
                                 thumbnail: global.Thumb,
                                 sourceUrl: global.website,
                                 mediaType: 1,
@@ -8122,7 +8118,7 @@ case 'bcgroup': {
                             externalAdReply: {
                                 showAdAttribution: true,
                                 title: `${nowtime}`,
-                                body: 'Jasa Recode Newbie Store',
+                                body: 'Jasa Recode Peyx Store',
                                 thumbnail: global.Thumb,
                                 sourceUrl: global.website,
                                 mediaType: 1,
@@ -8323,7 +8319,7 @@ case 'send': {
 
     // Kirim pesan VPS jika ada
     await sendFormattedMessage(
-      "VPS Newbie",
+      "VPS Peyx",
       vpsText,
       'https://telegra.ph/file/5dcae7a3d0b3c4d3f60c4.jpg'
     );
@@ -8609,7 +8605,7 @@ A17.sendMessage(m.chat, {
             〢━ 〄 Bot Info 〄 ━〢
           
    ⌯  My prefix is :  ${prefix}
-   ⌯  Bot usr name : ${pushname} 
+   ⌯  Username : ${pushname} 
    ⌯  Owner name : ${global.OwnerName} 
    ⌯  Runtime : ${runtime(process.uptime())} 
    ⌯  RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
@@ -8619,25 +8615,32 @@ A17.sendMessage(m.chat, {
           
 ┏ ┅ ━━〔〄 *MENU UTAMA* 〄 〕━ ┅ 
 ┃           
-┃  ⌯   ${prefix}tutor
+┃  ⌯   ${prefix}listmenu
 ┃  ⌯   ${prefix}bug (config)
 ┃  ⌯   ${prefix}menuserver
-┃  ⌯   ${prefix}setpromo
-┃  ⌯   ${prefix}setrecode
-┃  ⌯   ${prefix}setautoscript
-┃  ⌯   ${prefix}setvps
-┃  ⌯   ${prefix}promosi
-┃  
-┏ ┅ ━━〔 ♨ *Info* ♨ 〕━ ┅
-┃                    
+┃  ⌯   ${prefix}cekpromo
+┃  ⌯   ${prefix}cekharga
+┃  ⌯   ${prefix}cekvps
+┃  ⌯   ${prefix}cekautosc
+
+┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
 ┃  ⌯   ${prefix}list
+┃  ⌯   ${prefix}setpromo
+┃  ⌯   ${prefix}promobot
+┃  ⌯   ${prefix}addmod
+┃  ⌯   ${prefix}listonline
+┃  ⌯   ${prefix}joinall
+┃  
+┏ ┅ ━━〔 ♨ *PAYMENT* ♨ 〕━ ┅
+┃                    
 ┃  ⌯   ${prefix}qr
+┃  ⌯   ${prefix}sendpay
 ┃  ⌯   dana           
 ┃           
 ┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ 〕━ ┅
-┃⌯ALLAH SWT
-┃⌯NEWBIE STORE
-┃⌯MY BROTHER :)
+┃⌯ _*ALLAH SWT*_
+┃⌯ _*PX STORE*_
+┃⌯ _*MY BROTHER :)*_
 ┗ ┅ ━━━━━━━━━━━ ┅ ━`;
 
 A17.sendMessage(m.chat, {
@@ -8671,10 +8674,10 @@ A17.sendMessage(m.chat, {
         break;
 
 
-case 'tutor':
+case 'ownermenu':
 case 'tutorial': {
-        if (isBan) return reply(mess.banned);
-        if (isBanChat) return reply(mess.bangc);
+        if (!isBan) return reply(mess.banned);
+        if (!isBanChat) return reply(mess.bangc);
 
 const list_tutorial = `_Berikut Tutorial Yang Disesdiakan!!_
 
@@ -8833,9 +8836,9 @@ case 'carabeli': {
 ┗ ┅ ━━━━━━━━━━━ ┅ ━
 
 ┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ ━━━〢
-┃⌯ALLAH SWT
-┃⌯NEWBIE STORE
-┃⌯MY BROTHER :)
+┃⌯ _*ALLAH SWT*_
+┃⌯ _*PX STORE*_
+┃⌯ _*MY BROTHER :)*_
 ┗ ┅ ━━━━━━━━━━━ ┅ ━`
 
 A17.sendMessage(m.chat, {
@@ -8888,7 +8891,7 @@ Proxy : 172.67.175.171:80`
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "🚀", key: m.key } })
-        const helpexit = `*◇━━━ILPED/RGURU TSEL━━━◇*\nPayload Non Jabar\nGET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agsent: [ua][crlf]Upgrade: websocket[crlf][crlf]\n\nPlayload Jabar\nGET / HTTP/1.1[crlf]Host: edu.ruangguru.com[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]\n\nProxy\n104.26.6.171\n104.22.20.245\n104.18.24.139`
+        const helpexit = `*◇━━━ILPED/RGURU TSEL━━━◇*\n\nPAYLOAD\nGET /cdn-cgi/trace HTTP/1.1[crlf]Host: bakrie.ac.id[crlf]Connection: Keep-Alive[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]\n\nProxy\nbakrie.ac.id\n104.26.6.171\n104.22.20.245\n104.18.24.139`
         await A17.sendMessage(m.chat, {
               text : helpexit,
               contextInfo: {
@@ -9177,7 +9180,7 @@ Proxy : 172.67.175.171:80`
         A17.sendMessage(from, { react: { text: "✨", key: m.key } })
         const helpexit = `*Pembayaran Lewat Dana dan Qris*
         
-Dana : 085135314992 An Diah Fitri Liani
+Dana : 083151636921 An Ferdiansyah
 
 *Jangan Lupa Kirim Bukti TF Yah.*
 Terimakasih`
@@ -9203,7 +9206,7 @@ Terimakasih`
         A17.sendMessage(from, { react: { text: "✨", key: m.key } })
         const helpexit = `*Pembayaran Lewat Dana dan Qris*
         
-Dana : 085135314992 An Diah Fitri Liani
+Dana : 083151636921 An Ferdiansyah
 
 *Jangan Lupa Kirim Bukti TF Yah.*
 Terimakasih`
@@ -9226,30 +9229,29 @@ Terimakasih`
         try {
           const helpexitText = `◇━━━━━━━━━━━━━━◇
        🌐 *_VPS BY_* 🌐
-🌐 *_NEWBIE STORE_* 🌐
+🌐 *_PX STORE_* 🌐
 ◇━━━━━━━━━━━━━━◇
 ✓ ISP DigitalOcean 🚀
-✓ Install script by NEWBIE STORE
+✓ Install script by PX STORE
 ✓ Garansi Selama Masa Aktif❗❗❗
 ◇━━━━━━━━━━━━━━◇
-*_Operating System_*
-• Ubuntu
-• Debian
-◇━━━━━━━━━━━━━━◇
-*_Harga_*
-◇━━━━━━━━━━━━━━◇
-- SERVER SG :
-✓ 1GB RAM, BW 1 TB : 35 IDR
-✓ 2GB RAM, BW 3 TB : 45 IDR
-✓ 4GB RAM, BW 4 TB : 80 IDR
-✓ 8GB RAM, BW 6 TB : 120 IDR
-✓ 3 Unit Ram 8 : 250 IDR
-◇━━━━━━━━━━━━━━◇
-- SERVER INDO :
-✓ 1GB RAM, BW Unli : 90  IDR
-✓ 2GB RAM, BW Unli : 200 IDR
-✓ 4GB RAM, BW Unli : 350 IDR
-✓ 8GB RAM, BW Unli : 570 IDR
+➥ 𝟷 𝚅𝙲𝙿𝚄 | 𝟷 𝙶𝙱 𝚁𝙰𝙼 | 𝟷 𝚃𝙱 𝙱𝚆 | 𝟹𝟻𝙺
+➥ 𝟷 𝚅𝙲𝙿𝚄 | 𝟸 𝙶𝙱 𝚁𝙰𝙼 | 𝟸 𝚃𝙱 𝙱𝚆 | 𝟻𝟶𝙺
+➥ 𝟸 𝚅𝙲𝙿𝚄 | 𝟸 𝙶𝙱 𝚁𝙰𝙼 | 𝟹 𝚃𝙱 𝙱𝚆 | 𝟼𝟻𝙺
+➥ 𝟸 𝚅𝙲𝙿𝚄 | 𝟺 𝙶𝙱 𝚁𝙰𝙼 | 𝟺 𝚃𝙱 𝙱𝚆 | 𝟾𝟶𝙺
+
+𝙼𝚊𝚜𝚊 𝚊𝚔𝚝𝚒𝚏 𝟹𝟶 𝚑𝚊𝚛𝚒
+𝚂𝚞𝚍𝚊𝚑 𝚝𝚎𝚛𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚜𝚌𝚛𝚒𝚙𝚝 ＆ 𝙳𝚘𝚖𝚊𝚒𝚗
+
+𝙾𝙽𝙻𝚈 𝙵𝙾𝚁 𝚃𝚄𝙽𝙽𝙴𝙻𝙸𝙽𝙶
+𝙽𝚘𝚝𝚎！ 
+𝚃𝙾𝚂 
+𝟷． 𝙲𝙿𝚄 𝙳𝙸𝙻𝙰𝚁𝙰𝙽𝙶 𝟿𝟶％ ！
+𝟸． 𝙽𝙾 𝙳𝙳𝙾𝚂 ！
+𝟹． 𝙽𝙾 𝚃𝙾𝚁𝚁𝙴𝙽𝚃 ！
+𝟺． 𝙽𝙾 𝙷𝙰𝙲𝙺𝙸𝙽𝙶 ！
+𝟻． 𝙽𝙾 𝙼𝙸𝙽𝙸𝙽𝙶 ！
+𝟼． 𝙽𝙾 𝙱𝚄𝙸𝙻𝙳 𝙺𝙴𝚁𝙽𝙴𝙻 !
 ◇━━━━━━━━━━━━━━◇`
 A17.sendMessage(m.chat, {
             text: helpexitText,
@@ -9279,35 +9281,45 @@ A17.sendMessage(m.chat, {
           const helpexitText = `◇━━━━━━━━━━━━━━◇
       AUTOSCRIPT TUNNELING
 ◇━━━━━━━━━━━━━━◇
-🔰 Script Premium V1.6.9 N By NEWBIE 🔰
+🔰 Harga Script 🔰
 ◇━━━━━━━━━━━━━━◇
 SEWA :
-1 IP/Bulan : 10k
+1 IP/Bulan : 15k
 UNLI IP Lifetime : 200k
 LICENSI OPEN SOUCE : 
 500 K (Recode Harga Terpisah)
 ◇━━━━━━━━━━━━━━◇
-> FEATURE :
-1. Backup & Restore
-2. Auto backup via bot telegram
-4. Bisa atur Limit ip per user 
-5. Multi Path 
-6. Simple bot Telegram Panel
-7. Simple bot Whatsaap Panel
-8. Bisa atur Bandwidth per user
-9. Support Noobzvpns ✓
-10. Multilogin Akun otomatis ke Kunci
-11. Support Slowdns ✓
-12. Bisa Rename Scritp ✓
-13. Support lock Unlock Xray(vmess. Vless. Trojan)
-14. Support auto pointing jika tidak memiliki domain sendiri!
-15. Recovery akun Xray Expaired! (Memungkinkan mengembalikan akun X-ray yang sudah melewati masa aktif)
-16. Scritp ringan bahkan di ram 1 GB
-◇━━━━━━━━━━━━━━◇
-> SUPPORT OS :
-✓ Ubuntu 20.04 LTS - 24.04
-✓ Debian 10 - 12 
-> Support Enhacend 
+SCRIPT VPN PREMIUM BY PX
+OS Support
+1.Debian 10 
+2.Ubuntu 20.04 
+
+») What's features included («
+
+- Nginx htp(s):/ipl81/
+- Timezone :Asia/ Jakarta
+- Auto Reboot (bisa di set sendiri)
+- Auto Kill akun
+- Auto Update Feature
+- Check Port
+- Check Memory RAM
+- User Limit Login SSH/Dropbear/OpenVPN
+- User Limit Quota XRay/V2Ray
+- User Limit Quota Trojan
+- Speedtest
+- Cek User OpenVPN (User-friendly)
+- Live Bandwidth
+- Running VPS From BOT
+- Notification Create Users From BOT
+- Notification Check Users From BOT
+- Backup Configuration and Users VPS
+- Restore Configuration and Users VPS
+- Change Subdomain VPS
+- Support Multi Path VMESS
+- AIO Port 443 80
+DLL
+
+⚠️ Layanan untuk perbulan dan per ip bisa diperpanjang
 ◇━━━━━━━━━━━━━━◇`
 A17.sendMessage(m.chat, {
             text: helpexitText,
@@ -9332,12 +9344,12 @@ A17.sendMessage(m.chat, {
 	 //JASA RECODE
 case 'jasarecode': 
 case 'cekjasarecode': {
-    if (isBan) return reply(mess.banned);
-    if (isBanChat) return reply(mess.bangc);
+    if (!isBan) return reply(mess.banned);
+    if (!isBanChat) return reply(mess.bangc);
 
     try {
         const helpexitText = `◇━━━━━━━━━━━━━━◇
-🌐 *_NEWBIE STORE_* 🌐
+🌐 *_PX STORE_* 🌐
 ◇━━━━━━━━━━━━━━◇
 ✓ Aman ❗❗❗
 ✓ Terpercaya ❗❗❗
@@ -9391,18 +9403,23 @@ case 'cekharga': {
 
         // Teks informasi harga
         const helpexit = `
-*NEWBIE STORE VPN PREMIUM*
+*PX STORE VPN PREMIUM*
 *_SERVER SGDO & INDO_* 🇸🇬 🇮🇩
 ◇━━━━━━━━━━━━━━━◇
-*List Harga*
+*List Harga 1 Devices*
 ◇━━━━━━━━━━━━━━━◇
 *_PREMIUM_*
 ◇━━━━━━━━━━━━━━━◇
-😀 *_5K  | 15 Hari | 1HP |_*
-🤩 *_10K | 30 Hari | 2HP |_*
-🔥 *_15K | 30 Hari | 4HP |_*
+*SG* 🇸🇬 *_5K    | 15 Hari | 1HP |_*
+*SG* 🇸🇬 *_10K  | 30 Hari | 1HP |_*
+*SG* 🇸🇬 *_13K  | 30 Hari | 1HP |_*
+
+*ID* 🇮🇩 *_6K    | 15 Hari | 1HP |_*
+*ID* 🇮🇩 *_10K  | 30 Hari | 1HP |_*
+*ID* 🇮🇩 *_13K  | 30 Hari | 1HP |_*
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
+*Tambah devices +5K /dev*
 ◇━━━━━━━━━━━━━━━◇
 *Pembayaran*
 - DANA
