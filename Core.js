@@ -9426,11 +9426,11 @@ case 'hargavpn': {
 *SG* 🇸🇬 *_13K  | 30 Hari | 1HP |_*
 
 *ID* 🇮🇩 *_6K    | 15 Hari | 1HP |_*
-*ID* 🇮🇩 *_10K  | 30 Hari | 1HP |_*
-*ID* 🇮🇩 *_13K  | 30 Hari | 1HP |_*
+*ID* 🇮🇩 *_11K  | 30 Hari | 1HP |_*
+*ID* 🇮🇩 *_15K  | 30 Hari | 1HP |_*
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
-*Tambah devices +5K /dev*
+*Tambah devices +3K /dev*
 ◇━━━━━━━━━━━━━━━◇
 *Pembayaran*
 - DANA
