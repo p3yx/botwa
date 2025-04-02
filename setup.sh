@@ -58,7 +58,7 @@ apt update && apt install -y git ffmpeg imagemagick
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-git clone https://github.com/p3yx/botwa.git
+git clone https://github.com/p3yx/botwa.git Nebot
 wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 unzip botwa.zip
