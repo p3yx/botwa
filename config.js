@@ -13,7 +13,7 @@ global.joinall = process.env.JOINALL || true;
 global.autoTyping = process.env.AUTO_TYPING || false;
 global.autoRecord = process.env.AUTO_RECORD || false;
 global.groupevent = process.env.GROUPEVENT || false;
-global.statusseen = process.env.STATUSSEEN || true;
+global.statusseen = process.env.STATUSSEEN || false;
 global.autoreadgc = process.env.AUTOREADGC || true;
 
 
