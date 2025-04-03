@@ -3096,22 +3096,6 @@ case 'setautosc': {
     break;
 }
 
-// SET TEXT JASA RECODE
-case 'setrecode': {
-    if (isBan) return reply(mess.banned);
-    if (isBanChat) return reply(mess.bangc);
-    if (!isCreator) return reply(mess.botowner);
-
-    A17.sendMessage(from, { react: { text: "🛠️", key: m.key } });
-
-    if (!args[0]) return reply(`Use ${prefix + command} <text>\nExample: ${prefix + command} Jasa Recode Terbaru`);
-    const recodeText = args.join(" ");
-    fs.writeFileSync('./database/recode.json', JSON.stringify({ text: recodeText }, null, 2));
-    await sleep(500);
-    reply(`✅ *Berhasil mengatur teks jasa recode:*\n\n${recodeText}`);
-    break;
-}
-
 case 'setvps': {
     if (isBan) return reply(mess.banned);
     if (isBanChat) return reply(mess.bangc);
@@ -3189,23 +3173,16 @@ case 'promo': case 'list': case 'produk': {
             'https://telegra.ph/file/d7c3d152d9fff8f85ee62.jpg'
         );
 
-        // Kirim pesan Jasa Recode jika ada
-        await sendFormattedMessage(
-            "Jasa Recode",
-            recodeText,
-            'https://telegra.ph/file/a9398dd23261b48b5b5c2.jpg'
-        );
-
         // Kirim pesan VPS jika ada
         await sendFormattedMessage(
-            "VPS Peyx",
+            "VPS",
             vpsText,
             'https://telegra.ph/file/5dcae7a3d0b3c4d3f60c4.jpg'
         );
 
         // Cek apakah semua file kosong
         if (!promoText && !autoscriptText && !recodeText && !vpsText) {
-            return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*\n- *${prefix}setrecode <text>*\n- *${prefix}setvps <text>*`);
+            return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*\n- *${prefix}setvps <text>*`);
         }
 
         reply('✅ *Ini adalah List Kami Kaka!*');
@@ -8110,24 +8087,6 @@ case 'bcgroup': {
                     });
                 }
 
-                // Kirim pesan Jasa Recode
-                if (recodeText) {
-                    await A17.sendMessage(groupId, {
-                        text: recodeText,
-                        contextInfo: {
-                            externalAdReply: {
-                                showAdAttribution: true,
-                                title: `${nowtime}`,
-                                body: 'Jasa Recode Peyx Store',
-                                thumbnail: global.Thumb,
-                                sourceUrl: global.website,
-                                mediaType: 1,
-                                renderLargerThumbnail: true,
-                            },
-                        },
-                    });
-                }
-
                 // Kirim pesan VPS
                 if (vpsText) {
                     await A17.sendMessage(groupId, {
@@ -8310,13 +8269,6 @@ case 'send': {
       'https://telegra.ph/file/d7c3d152d9fff8f85ee62.jpg'
     );
 
-    // Kirim pesan Jasa Recode jika ada
-    await sendFormattedMessage(
-      "Jasa Recode",
-      recodeText,
-      'https://telegra.ph/file/a9398dd23261b48b5b5c2.jpg'
-    );
-
     // Kirim pesan VPS jika ada
     await sendFormattedMessage(
       "VPS Peyx",
@@ -8325,8 +8277,8 @@ case 'send': {
     );
 
     // Cek apakah semua file kosong
-    if (!promoText && !autoscriptText && !recodeText && !vpsText) {
-      return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*\n- *${prefix}setrecode <text>*\n- *${prefix}setvps <text>*`);
+    if (!promoText && !autoscriptText && !vpsText) {
+      return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*\n- *${prefix}setvps <text>*`);
     }
 
     reply('✅ *Preview Pesan Berhasil Dikirim!*');
@@ -8620,9 +8572,9 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}menuserver
 ┃  ⌯   ${prefix}server
 ┃  ⌯   ${prefix}promo
-┃  ⌯   ${prefix}hargavpn
-┃  ⌯   ${prefix}hargavps
-┃  ⌯   ${prefix}cekautosc
+┃  ⌯   ${prefix}harga
+┃  ⌯   ${prefix}vps
+┃  ⌯   ${prefix}autoscript
 
 ┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
 ┃  
@@ -9287,7 +9239,7 @@ A17.sendMessage(m.chat, {
     break;
 } 
 	//harga autosc	 
-      case 'autosc': case 'cekautosc': {
+      case 'autoscript': case 'cekautosc': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         try {
@@ -9354,59 +9306,8 @@ A17.sendMessage(m.chat, {
     }
     break;
 }  
-	 //JASA RECODE
-case 'jasarecode': 
-case 'cekjasarecode': {
-    if (!isBan) return reply(mess.banned);
-    if (!isBanChat) return reply(mess.bangc);
-
-    try {
-        const helpexitText = `◇━━━━━━━━━━━━━━◇
-🌐 *_PX STORE_* 🌐
-◇━━━━━━━━━━━━━━◇
-✓ Aman ❗❗❗
-✓ Terpercaya ❗❗❗
-✓ Selalu Melayani Sepenuh Hati ❗❗❗
-◇━━━━━━━━━━━━━━◇
-_Jasa Recode_
-- Pembuatan Fitur Baru Auto Script
-- Penambahan Fitur SC
-- Perbaikan Fitur SC
-◇━━━━━━━━━━━━━━◇
-⏳ *Estimasi Waktu Pengerjaan*:
-- Perbaikan Fitur: 30 menit - 1 Jam (tergantung kendala)
-- Penambahan Fitur: 1 - 5 Jam (tergantung fitur terkait)
-- Pembuatan Fitur: 1 - 3 Hari (tergantung kesulitan)
-◇━━━━━━━━━━━━━━◇
-💲 *Harga Jasa*: 
-10K - 150K (tergantung tingkat kesulitan dan kompleksitas)
-◇━━━━━━━━━━━━━━◇`;
-
-        // Kirim pesan dengan `externalAdReply`
-        A17.sendMessage(m.chat, {
-            text: helpexitText,
-            contextInfo: {
-                externalAdReply: {
-                    showAdAttribution: true,
-                    title: BotName,
-                    body: 'Follow Saluran Kami',
-                    thumbnail: global.Thumb,
-                    sourceUrl: global.website,
-                    mediaType: 1,
-                    renderMediumThumbnail: true
-                }
-            }
-        });
-
-    } catch (err) {
-        console.error('Error sending jasa recode menu:', err);
-        reply('Maaf, terjadi kesalahan saat mengirim informasi jasa recode.');
-    }
-    break;
-}
-		//HARGA SSH
-		
-case 'hargavpn': {
+	//HARGA SSH	
+case 'harga': case 'hargavpn': {
     if (isBan) return reply(mess.banned); // Cek jika user diblokir
     if (isBanChat) return reply(mess.bangc); // Cek jika grup diblokir
 
