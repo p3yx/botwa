@@ -9417,20 +9417,17 @@ case 'hargavpn': {
 *PX STORE VPN PREMIUM*
 *_SERVER SGDO & INDO_* 🇸🇬 🇮🇩
 ◇━━━━━━━━━━━━━━━◇
-*List Harga 1 Devices*
+*List Harga VPN premium*
 ◇━━━━━━━━━━━━━━━◇
-*_PREMIUM_*
-◇━━━━━━━━━━━━━━━◇
-*SG* 🇸🇬 *_5K    | 15 Hari | 1HP |_*
-*SG* 🇸🇬 *_10K  | 30 Hari | 1HP |_*
-*SG* 🇸🇬 *_13K  | 30 Hari | 1HP |_*
+*SG* 🇸🇬 *_5K | 15 Hari | 1 device_*
+*SG* 🇸🇬 *_10K | 30 Hari | 2 device_*
+*SG* 🇸🇬 *_20K | 30 Hari | 3 devices_*
 
-*ID* 🇮🇩 *_6K    | 15 Hari | 1HP |_*
-*ID* 🇮🇩 *_11K  | 30 Hari | 1HP |_*
-*ID* 🇮🇩 *_15K  | 30 Hari | 1HP |_*
+*ID* 🇮🇩 *_6K | 15 Hari | 1 devices_*
+*ID* 🇮🇩 *_11K | 30 Hari | 2 devices_*
+*ID* 🇮🇩 *_23K | 30 Hari | 3 device_*
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
-*Tambah devices +3K /dev*
 ◇━━━━━━━━━━━━━━━◇
 *Pembayaran*
 - DANA
