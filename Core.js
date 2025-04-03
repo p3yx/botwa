@@ -8615,12 +8615,10 @@ A17.sendMessage(m.chat, {
           
 ┏ ┅ ━━〔〄 *MENU UTAMA* 〄 〕━ ┅ 
 ┃           
-┃  ⌯   ${prefix}listmenu
+┃  ⌯   ${prefix}list
 ┃  ⌯   ${prefix}bug (config)
 ┃  ⌯   ${prefix}menuserver
 ┃  ⌯   ${prefix}server
-┃  ⌯   ${prefix}speedtest
-┃  ⌯   ${prefix}list
 ┃  ⌯   ${prefix}promo
 ┃  ⌯   ${prefix}hargavpn
 ┃  ⌯   ${prefix}hargavps
