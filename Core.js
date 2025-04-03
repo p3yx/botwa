@@ -8620,6 +8620,7 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}menuserver
 ┃  ⌯   ${prefix}server
 ┃  ⌯   ${prefix}speedtest
+┃  ⌯   ${prefix}list
 ┃  ⌯   ${prefix}promo
 ┃  ⌯   ${prefix}hargavpn
 ┃  ⌯   ${prefix}hargavps
@@ -8629,10 +8630,12 @@ A17.sendMessage(m.chat, {
 ┃  
 ┃  ⌯   ${prefix}ping
 ┃  ⌯   ${prefix}all
-┃  ⌯   ${prefix}welcome
+┃  ⌯   ${prefix}welcome on
+┃  ⌯   ${prefix}welcome of
 ┃  ⌯   ${prefix}cekservice
 ┃  ⌯   ${prefix}setpromo
 ┃  ⌯   ${prefix}promosibot
+┃  ⌯   ${prefix}promosi
 ┃  ⌯   ${prefix}addmod
 ┃  ⌯   ${prefix}delmod
 ┃  ⌯   ${prefix}listonline
