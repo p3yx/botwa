@@ -9421,13 +9421,13 @@ case 'hargavpn': {
 ◇━━━━━━━━━━━━━━━◇
 *List Harga VPN premium*
 ◇━━━━━━━━━━━━━━━◇
-*SG* 🇸🇬 *_5K | 15 Hari | 1 device_*
-*SG* 🇸🇬 *_10K | 30 Hari | 2 device_*
-*SG* 🇸🇬 *_18K | 30 Hari | 3 devices_*
+*SG* 🇸🇬 *_5K | 15 Hari | 1 devices_*
+*SG* 🇸🇬 *_10K | 30 Hari | 2 devices_*
+*SG* 🇸🇬 *_18K | 30 Hari | 4 devices_*
 
 *ID* 🇮🇩 *_6K | 15 Hari | 1 devices_*
 *ID* 🇮🇩 *_11K | 30 Hari | 2 devices_*
-*ID* 🇮🇩 *_20K | 30 Hari | 3 device_*
+*ID* 🇮🇩 *_20K | 30 Hari | 4 devices_*
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
 ◇━━━━━━━━━━━━━━━◇
