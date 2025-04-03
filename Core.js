@@ -1279,7 +1279,7 @@ ISP: ${locationData.isp}
       case 'autostatusseen':
 
         if (isCreator) return reply(mess.banned);
-        if (isCreator) return reply(mess.bangc);
+        if (!isCreator) return reply(mess.bangc);
         if (!isCreator) return reply(mess.botowner)
         A17.sendMessage(from, { react: { text: '❤', key: m.key } });
 
@@ -3420,7 +3420,7 @@ case 'loginxray': {
 }
 
 case 'addssh': {
-    if (isBan) return reply(mess.banned);
+    if (!isCreator) return reply(mess.botowner);
     if (!args.join("")) return reply(`MOHON INPUT *NAMA.PASSWORD.LIMITIP.MASAAKTIF*`);
     
     // Parsing input menjadi array berdasarkan delimiter '.'
