@@ -4018,10 +4018,9 @@ break;
 ┃
 ┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ
 
-┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ ━━━〢
+┏ ┅ ━〔 *THX TO..* ━━━〢
 ┃⌯ ALLAH SWT
-┃⌯ PX STORE
-┃⌯ MY BROTHER :)
+┃⌯ ©PX STORE
 ┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ`
 
 A17.sendMessage(m.chat, {
@@ -8339,7 +8338,6 @@ case 'send': {
             ⌯   ${prefix}join
             ⌯   ${prefix}self
             ⌯   ${prefix}public
-            ⌯   ${prefix}restart
             ⌯   ${prefix}sleep
             ⌯   ${prefix}setbotpp
             ⌯   ${prefix}post
@@ -8568,33 +8566,13 @@ A17.sendMessage(m.chat, {
 ┏ ┅ ━━〔〄 *MENU UTAMA* 〄 〕━ ┅ 
 ┃           
 ┃  ⌯   ${prefix}list
-┃  ⌯   ${prefix}bug (config)
+┃  ⌯   ${prefix}menuowner
 ┃  ⌯   ${prefix}menuserver
 ┃  ⌯   ${prefix}server
 ┃  ⌯   ${prefix}promo
 ┃  ⌯   ${prefix}harga
 ┃  ⌯   ${prefix}vps
-┃  ⌯   ${prefix}autoscript
-
-┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
-┃  
-┃  ⌯   ${prefix}ping
-┃  ⌯   ${prefix}all
-┃  ⌯   ${prefix}welcome on
-┃  ⌯   ${prefix}welcome of
-┃  ⌯   ${prefix}cekservice
-┃  ⌯   ${prefix}setpromo
-┃  ⌯   ${prefix}promosibot
-┃  ⌯   ${prefix}promosi
-┃  ⌯   ${prefix}addmod
-┃  ⌯   ${prefix}delmod
-┃  ⌯   ${prefix}listonline
-┃  ⌯   ${prefix}joinall on
-┃  ⌯   ${prefix}joinall off
-┃  ⌯   ${prefix}restart
-┃  ⌯   ${prefix}setvps
-┃  ⌯   ${prefix}setautosc
-┃  ⌯   ${prefix}setrecode
+┃  ⌯   ${prefix}autoscript 
 ┃  
 ┏ ┅ ━━〔 ♨ *PAYMENT* ♨ 〕━ ┅
 ┃                    
@@ -8602,10 +8580,9 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}sendpay
 ┃  ⌯   dana           
 ┃           
-┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ 〕━ ┅
+┏ ┅ ━〔 *THX TO..* 〕━ ┅
 ┃⌯ ALLAH SWT
-┃⌯ PX STORE
-┃⌯ MY BROTHER :)
+┃⌯ ©PX STORE
 ┗ ┅ ━━━━━━━━━━━ ┅ ━`;
 
 A17.sendMessage(m.chat, {
@@ -8771,39 +8748,54 @@ case 'carabeli': {
     }
     break
 
-      case 'bugmenu': case 'bug': case '`info bug config`': {
+      case 'menuowner': case 'bug': case '`info bug config`': {
 		if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         const helpexit = `Hey kak *${pushname}* ${nowtime} ,
   
 
-┏ ┅ ━━〔〄 *INFO BUG* 〄 〕━ ┅ 
-┃
-┃   ⌯  ${prefix}tselopok
-┃   ⌯  ${prefix}tselilped
-┃   ⌯  ${prefix}tselruangguru
-┃   ⌯  ${prefix}isatfun
-┃   ⌯  ${prefix}byuggwp
-┃   ⌯  ${prefix}xlsosmed
-┃   ⌯  ${prefix}xlflex
-┃   ⌯  ${prefix}xlfb
-┃   ⌯  ${prefix}xledu
-┃   ⌯  ${prefix}xlcon
-┃   ⌯  ${prefix}xlff
-┃   ⌯  ${prefix}xlvision
-┃   ⌯  ${prefix}xlvideo
-┃   ⌯  ${prefix}axiscon
-┃   ⌯  ${prefix}axisedu
-┃   ⌯  ${prefix}axisgame
-┃   ⌯  ${prefix}axissosmed
-┃   ⌯  ${prefix}axissushiroll
+┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
+┃  
+┃  ⌯   ${prefix}ping
+┃  ⌯   ${prefix}all
+┃  ⌯   ${prefix}welcome on
+┃  ⌯   ${prefix}welcome of
+┃  ⌯   ${prefix}cekservice
+┃  ⌯   ${prefix}setpromo
+┃  ⌯   ${prefix}promosibot
+┃  ⌯   ${prefix}promosi
+┃  ⌯   ${prefix}addmod
+┃  ⌯   ${prefix}delmod
+┃  ⌯   ${prefix}listonline
+┃  ⌯   ${prefix}joinall on
+┃  ⌯   ${prefix}joinall off
+┃  ⌯   ${prefix}restart
+┃  ⌯   ${prefix}setvps
+┃  ⌯   ${prefix}setautosc
+┃  ⌯   ${prefix}setrecode
+┃  ⌯   ${prefix}join
+┃  ⌯   ${prefix}self
+┃  ⌯   ${prefix}public
+┃  ⌯   ${prefix}sleep
+┃  ⌯   ${prefix}setbotpp
+┃  ⌯   ${prefix}post
+┃  ⌯   ${prefix}listonline
+┃  ⌯   ${prefix}listgc
+┃  ⌯   ${prefix}listpc
+┃  ⌯   ${prefix}getcase
+┃  ⌯   ${prefix}bangroup
+┃  ⌯   ${prefix}broadcast
+┃  ⌯   ${prefix}bye
+┃  ⌯   ${prefix}block
+┃  ⌯   ${prefix}unblock
+┃  ⌯   ${prefix}ban add
+┃  ⌯   ${prefix}ban del
 ┃
 ┗ ┅ ━━━━━━━━━━━ ┅ ━
 
-┏ ┅ ━〔 ⚠️ *THX TO..* ⚠️ ━━━〢
+┏ ┅ ━〔 *THX TO..* ━━━〢
 ┃⌯ ALLAH SWT
-┃⌯ PX STORE
-┃⌯ MY BROTHER :)
+┃⌯ ©PX STORE
 ┗ ┅ ━━━━━━━━━━━ ┅ ━`
 
 A17.sendMessage(m.chat, {
