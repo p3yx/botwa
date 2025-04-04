@@ -777,7 +777,7 @@ deviceListMetadata: {},
 deviceListMetadataVersion: 2
 }, interactiveMessage: proto.Message.InteractiveMessage.fromObject({
 body: proto.Message.InteractiveMessage.Body.fromObject({
-text: "*All Transaksi Open ✅*\n\n*PeyX Store* Menyediakan Produk & Jasa Dibawah Ini ⬇️"
+text: "*All Transaksi Open ✅*\n\n*PeyX Store* Menyediakan Produk Dibawah Ini ⬇️"
 }), 
 contextInfo: {
 mentionedJid: mention
@@ -8751,7 +8751,7 @@ case 'carabeli': {
       case 'menuowner': case 'bug': case '`info bug config`': {
 		if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
-        const helpexit = `Hey kak *${pushname}* ${nowtime} ,
+        const helpexit = `Hi kak *${pushname}* ${nowtime} ,
   
 
 ┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
@@ -8760,7 +8760,6 @@ case 'carabeli': {
 ┃  ⌯   ${prefix}all
 ┃  ⌯   ${prefix}welcome on
 ┃  ⌯   ${prefix}welcome of
-┃  ⌯   ${prefix}cekservice
 ┃  ⌯   ${prefix}setpromo
 ┃  ⌯   ${prefix}promosibot
 ┃  ⌯   ${prefix}promosi
@@ -9208,8 +9207,7 @@ Terimakasih`
 𝟹． 𝙽𝙾 𝚃𝙾𝚁𝚁𝙴𝙽𝚃 ！
 𝟺． 𝙽𝙾 𝙷𝙰𝙲𝙺𝙸𝙽𝙶 ！
 𝟻． 𝙽𝙾 𝙼𝙸𝙽𝙸𝙽𝙶 ！
-𝟼． 𝙽𝙾 𝙱𝚄𝙸𝙻𝙳 𝙺𝙴𝚁𝙽𝙴𝙻 !
-◇━━━━━━━━━━━━━━◇`
+𝟼． 𝙽𝙾 𝙱𝚄𝙸𝙻𝙳 𝙺𝙴𝚁𝙽𝙴𝙻 !`
 A17.sendMessage(m.chat, {
             text: helpexitText,
             contextInfo: {
@@ -9236,7 +9234,7 @@ A17.sendMessage(m.chat, {
         if (isBanChat) return reply(mess.bangc);
         try {
           const helpexitText = `◇━━━━━━━━━━━━━━◇
-      AUTOSCRIPT TUNNELING
+  AUTOSCRIPT TUNNELING
 ◇━━━━━━━━━━━━━━◇
 🔰 Harga Script 🔰
 ◇━━━━━━━━━━━━━━◇
@@ -9275,8 +9273,6 @@ OS Support
 - Support Multi Path VMESS
 - AIO Port 443 80
 DLL
-
-⚠️ Layanan untuk perbulan dan per ip bisa diperpanjang
 ◇━━━━━━━━━━━━━━◇`
 A17.sendMessage(m.chat, {
             text: helpexitText,
