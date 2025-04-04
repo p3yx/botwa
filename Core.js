@@ -1757,7 +1757,7 @@ ISP: ${locationData.isp}
              const fruit4 = ["🍇", "🍎", "🥥"]
              const lose = ['*You suck at playing this game*\n\n_--> 🍍-🥥-🍎_', '*Totally out of line*\n\n_--> 🥥-🍎-🍍_', '*Are you a peyx?*\n\n_--> 🍎-🍍-🥥_']
              const smallLose = ['*You cannot harvest coconut 🥥 in a pineapple 🍍 farm*\n\n_--> 🍍>🥥<🍍_', '*Apples and Coconut are not best Combo*\n\n_--> 🍎>🥥<🍎_', '*Coconuts and Apple are not great deal*\n\n_--> 🥥>🍎<🥥_']
-             const won = ['*You harvested a basket of*\n\n_--> 🍎+🍎+🍎_', '*Impressive, You must be a specialist in plucking coconuts*\n\n_--> 🥥+🥥+🥥_', '*Amazing, you are going to be making pineapple juice for the family*\n\n_--> 🍍+🍍+🍍_']             
+             const won = ['*You harvested a basket of*\n\n_--> 🍎+🍎+🍎_', '*Impressive, You must be a specialist in plucking coconuts*\n\n_--> 🥥+??+🥥_', '*Amazing, you are going to be making pineapple juice for the family*\n\n_--> 🍍+🍍+🍍_']             
              const near = ['*Wow, you were so close to winning pineapples*\n\n_--> 🍎-🍍+🍍_', '*Hmmm, you were so close to winning Apples*\n\n_--> 🍎+🍎-🍍_']          
              const jack = ['*🥳 JackPot 🤑*\n\n_--> 🍇×🍇×🍇×🍇_', '*🎉 JaaackPooot!*\n\n_--> 🥥×🥥×🥥×🥥_', '*🎊 You Just hit a jackpot worth 💎1000*']
              const user = m.sender
@@ -3096,6 +3096,22 @@ case 'setautosc': {
     break;
 }
 
+// SET TEXT JASA RECODE
+case 'setppob': {
+    if (isBan) return reply(mess.banned);
+    if (isBanChat) return reply(mess.bangc);
+    if (!isCreator) return reply(mess.botowner);
+
+    A17.sendMessage(from, { react: { text: "🛠️", key: m.key } });
+
+    if (!args[0]) return reply(`Use ${prefix + command} <text>\nExample: ${prefix + command} Top up game PPOB`);
+    const recodeText = args.join(" ");
+    fs.writeFileSync('./database/recode.json', JSON.stringify({ text: recodeText }, null, 2));
+    await sleep(500);
+    reply(`✅ *Berhasil mengatur teks jasa recode:*\n\n${recodeText}`);
+    break;
+}
+
 case 'setvps': {
     if (isBan) return reply(mess.banned);
     if (isBanChat) return reply(mess.bangc);
@@ -3168,8 +3184,15 @@ case 'promo': case 'list': case 'produk': {
 
         // Kirim pesan Autoscript jika ada
         await sendFormattedMessage(
-            "Autoscript Tunneling",
+            "AUTOSCRIPT TUNNELING",
             autoscriptText,
+            'https://telegra.ph/file/d7c3d152d9fff8f85ee62.jpg'
+        );
+        
+       // Kirim pesan Autoscript jika ada
+        await sendFormattedMessage(
+            "PPOB & TOP UP GAME",
+            recodeText,
             'https://telegra.ph/file/d7c3d152d9fff8f85ee62.jpg'
         );
 
@@ -3182,7 +3205,7 @@ case 'promo': case 'list': case 'produk': {
 
         // Cek apakah semua file kosong
         if (!promoText && !autoscriptText && !recodeText && !vpsText) {
-            return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*\n- *${prefix}setvps <text>*`);
+            return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*${prefix}setppob <text>*\n- *${prefix}setvps <text>*`);
         }
 
         reply('✅ *Ini adalah List Kami Kaka!*');
@@ -8085,6 +8108,24 @@ case 'bcgroup': {
                         },
                     });
                 }
+                
+                // Kirim pesan Jasa Recode
+                if (recodeText) {
+                    await A17.sendMessage(groupId, {
+                        text: recodeText,
+                        contextInfo: {
+                            externalAdReply: {
+                                showAdAttribution: true,
+                                title: `${nowtime}`,
+                                body: 'Top up Peyx Store',
+                                thumbnail: global.Thumb,
+                                sourceUrl: global.website,
+                                mediaType: 1,
+                                renderLargerThumbnail: true,
+                            },
+                        },
+                    });
+                }
 
                 // Kirim pesan VPS
                 if (vpsText) {
@@ -8267,17 +8308,24 @@ case 'send': {
       autoscriptText,
       'https://telegra.ph/file/d7c3d152d9fff8f85ee62.jpg'
     );
+    
+    // Kirim pesan Autoscript jika ada
+    await sendFormattedMessage(
+      "PPOB & TOP UP GAME",
+      recodeText,
+      'https://telegra.ph/file/d7c3d152d9fff8f85ee62.jpg'
+    );
 
     // Kirim pesan VPS jika ada
     await sendFormattedMessage(
-      "VPS Peyx",
+      "VPS TUNNELING",
       vpsText,
       'https://telegra.ph/file/5dcae7a3d0b3c4d3f60c4.jpg'
     );
 
     // Cek apakah semua file kosong
     if (!promoText && !autoscriptText && !vpsText) {
-      return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*\n- *${prefix}setvps <text>*`);
+      return reply(`❌ Semua pesan kosong!\nGunakan perintah:\n- *${prefix}setpromo <text>*\n- *${prefix}setautoscript <text>*\n*${prefix}setppob <text>*\n- *${prefix}setvps <text>*`);
     }
 
     reply('✅ *Preview Pesan Berhasil Dikirim!*');
@@ -8771,7 +8819,7 @@ case 'carabeli': {
 ┃  ⌯   ${prefix}restart
 ┃  ⌯   ${prefix}setvps
 ┃  ⌯   ${prefix}setautosc
-┃  ⌯   ${prefix}setrecode
+┃  ⌯   ${prefix}setppob
 ┃  ⌯   ${prefix}join
 ┃  ⌯   ${prefix}self
 ┃  ⌯   ${prefix}public
