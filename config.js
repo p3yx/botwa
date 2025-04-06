@@ -28,7 +28,7 @@ global.github = "https://github.com/p3yx";
 
 
 // Default prefix
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split("/") : ["."];
+global.prefa = process.env.PREFIX ? process.env.PREFIX.split(".") : ["/"];
 
 
 // Owner information
