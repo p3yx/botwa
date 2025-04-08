@@ -4055,7 +4055,7 @@ A17.sendMessage(m.chat, {
                     thumbnailUrl: 'https://telegra.ph/file/d39104297903c204c2311.jpg',
                     sourceUrl: global.website,
                     mediaType: 1,
-                    renderMediumThumbnail: true
+                    renderLargerThumbnail: true
                 }
             }
         });
@@ -8348,7 +8348,7 @@ case 'send': {
           await A17.sendMessage(from, { react: { text: "✨", key: m.key } });
 
 
-          const helpexitText = `\nHello ${pushname} Dear...!! ${nowtime} ,
+          const helpexitText = `\nHello ${pushname} Dear...!! Selamat Datang ,
           
           
              ⌯  Date : ${kaidate}
@@ -8593,7 +8593,7 @@ A17.sendMessage(m.chat, {
           await A17.sendMessage(from, { react: { text: "✨", key: m.key } });
 
 
-          const helpexitText = `\nHello ${pushname} Dear...!! ${nowtime} ,
+          const helpexitText = `\nHello ${pushname} Dear...!! Selamat Datang ,
           
           
              ⌯  Date : ${kaidate}
@@ -8798,7 +8798,7 @@ case 'carabeli': {
       case 'menuowner': case 'bug': case '`info bug config`': {
 		if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
-        const helpexit = `Hi kak *${pushname}* ${nowtime} ,
+        const helpexit = `Hi kak *${pushname}* Selamat Datang ,
   
 
 ┏ ┅ ━━〔〄 *MENU OWNER* 〄 〕━ ┅ 
