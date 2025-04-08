@@ -3128,11 +3128,6 @@ case 'setvps': {
 
 		
 case 'promo': case 'list': case 'produk': {
-    if (isBan) return reply(mess.banned);
-    if (isBanChat) return reply(mess.bangc);
-    if (!isCreator) return reply(mess.botowner);
-
-    try {
         A17.sendMessage(from, { react: { text: "📝", key: m.key } }); // Reaksi awal
         await sleep(1500); // Delay agar terlihat interaktif
 
@@ -8796,7 +8791,7 @@ case 'carabeli': {
     }
     break
 
-      case 'menuowner': case 'bug': case '`info bug config`': {
+      case 'menuowner': {
 		if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         const helpexit = `Hi kak *${pushname}* ${nowtime} ,
