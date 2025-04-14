@@ -9359,11 +9359,11 @@ case 'harga': case 'hargavpn': {
 ◇━━━━━━━━━━━━━━━◇
 *SG* 🇸🇬 *_5K | 15 Hari | 1 devices_*
 *SG* 🇸🇬 *_10K | 30 Hari | 2 devices_*
-*SG* 🇸🇬 *_18K | 30 Hari | 4 devices_*
+*SG* 🇸🇬 *_13K | 30 Hari | 2 devices_*
 
 *ID* 🇮🇩 *_6K | 15 Hari | 1 devices_*
 *ID* 🇮🇩 *_11K | 30 Hari | 2 devices_*
-*ID* 🇮🇩 *_20K | 30 Hari | 4 devices_*
+*ID* 🇮🇩 *_15K | 30 Hari | 2 devices_*
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
 ◇━━━━━━━━━━━━━━━◇
