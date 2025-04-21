@@ -9357,13 +9357,25 @@ case 'harga': case 'hargavpn': {
 ◇━━━━━━━━━━━━━━━◇
 *List Harga VPN premium*
 ◇━━━━━━━━━━━━━━━◇
-*SG* 🇸🇬 *_5K | 15 Hari | 1 devices_*
-*SG* 🇸🇬 *_10K | 30 Hari | 2 devices_*
-*SG* 🇸🇬 *_13K | 30 Hari | 2 devices_*
+_*SERVER SINGAPORE*_🇸🇬
 
-*ID* 🇮🇩 *_6K | 15 Hari | 1 devices_*
-*ID* 🇮🇩 *_11K | 30 Hari | 2 devices_*
-*ID* 🇮🇩 *_15K | 30 Hari | 2 devices_*
+*SSH* _5K | 15 Hari | 1 devices_
+*SSH* _10K | 30 Hari | 2 devices_
+*SSH* _18K | 60 Hari | 2 devices_
+
+*V2RAY* _7K | 15 Hari | 1 devices_
+*V2RAY* _13K | 30 Hari | 2 devices_
+*V2RAY* _25K | 60 hari | 2 devices_
+◇━━━━━━━━━━━━━━━◇
+_*SERVER INDONESIA*_🇮🇩
+
+*SSH* _6K | 15 Hari | 1 devices_
+*SSH* _11K | 30 Hari | 2 devices_
+*SSH* _20K | 60 Hari | 2 devices_
+
+*V2RAY* _8K | 15 Hari | 1 devices_
+*V2RAY* _15K | 30 Hari | 2 devices_
+*V2RAY* _30K | 60 Hari | 2 devices_
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
 ◇━━━━━━━━━━━━━━━◇
