@@ -28,7 +28,7 @@ global.github = "https://github.com/p3yx";
 
 
 // Default prefix
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(".") : ["/"];
+global.prefa = process.env.PREFIX ? process.env.PREFIX.split("/") : ["."];
 
 
 // Owner information
@@ -42,6 +42,13 @@ global.author = "By: peyx";
 global.BotSourceCode = "https://github.com/p3yx/botwa";
 global.SupportGroupLink = "https://chat.whatsapp.com/HNACwQRxuoY7rVg6q12d4m";
 
+
+// Settings Orderkuota
+global.pinH2H = "5555"
+global.passwordH2H = "duriduri34"
+global.merchantIdOrderKuota = "OK1412639"
+global.apiOrderKuota = "727329817453713371412639OKCT3FCBBE1DEF8C9F33A419C2246A811328"
+global.qrisOrderKuota = "00020101021126670016COM.NOBUBANK.WWW01189360050300000879140214737458216203040303UMI51440014ID.CO.QRIS.WWW0215ID20233008504920303UMI5204541153033605802ID5919MRZ STORE OK14126396008SUKABUMI61054311162070703A0163043479"
 
 //
 global.openAiAPI = process.env.OPENAI_API || "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";

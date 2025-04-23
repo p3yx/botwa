@@ -2763,7 +2763,6 @@ ISP: ${locationData.isp}
         }
         break;
 
-
       case 'tentacles':
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
@@ -6205,7 +6204,7 @@ _Click the button below to download_`
 
 
       ///
-      case 'tiktok': {
+      case 'tiktokk': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!q) return reply('Please provide the link !')
@@ -8613,6 +8612,7 @@ A17.sendMessage(m.chat, {
 ┏ ┅ ━━〔〄 *MENU UTAMA* 〄 〕━ ┅ 
 ┃           
 ┃  ⌯   ${prefix}list
+┃  ⌯   ${prefix}ordervpn
 ┃  ⌯   ${prefix}menuowner
 ┃  ⌯   ${prefix}menuserver
 ┃  ⌯   ${prefix}server
@@ -8620,13 +8620,7 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}harga
 ┃  ⌯   ${prefix}vps
 ┃  ⌯   ${prefix}autoscript 
-┃  
-┏ ┅ ━━〔 ♨ *PAYMENT* ♨ 〕━ ┅
-┃                    
-┃  ⌯   ${prefix}qr
-┃  ⌯   ${prefix}sendpay
-┃  ⌯   dana           
-┃           
+┃
 ┏ ┅ ━〔 *THX TO..* 〕━ ┅
 ┃⌯ ALLAH SWT
 ┃⌯ ©PX STORE
