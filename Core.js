@@ -9370,7 +9370,7 @@ _*SERVER INDONESIA*_🇮🇩
 
 *V2RAY* _8K | 15 Hari | 1 devices_
 *V2RAY* _15K | 30 Hari | 2 devices_
-*V2RAY* _30K | 60 Hari | 2 devices_
+*V2RAY* _28K | 60 Hari | 2 devices_
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
 ◇━━━━━━━━━━━━━━━◇
