@@ -8622,6 +8622,13 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}vps
 ┃  ⌯   ${prefix}autoscript 
 ┃
+┏ ┅ ━〔 *MENU PPOB* 〕━ ┅
+┃
+┃  ⌯   ${prefix}topupdiamond
+┃  ⌯   ${prefix}kuotadata
+┃  ⌯   ${prefix}isipulsa
+┃  ⌯   ${prefix}tokenlistrik
+┃
 ┏ ┅ ━〔 *THX TO..* 〕━ ┅
 ┃⌯ ALLAH SWT
 ┃⌯ ©PX STORE
