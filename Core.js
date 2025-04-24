@@ -8618,13 +8618,14 @@ A17.sendMessage(m.chat, {
 ┃  ⌯   ${prefix}server
 ┃  ⌯   ${prefix}promo
 ┃  ⌯   ${prefix}harga
+┃  ⌯   ${prefix}bayar
 ┃  ⌯   ${prefix}vps
 ┃  ⌯   ${prefix}autoscript 
 ┃
 ┏ ┅ ━〔 *THX TO..* 〕━ ┅
 ┃⌯ ALLAH SWT
 ┃⌯ ©PX STORE
-┗ ┅ ━━━━━━━━━━━ ┅ ━`;
+┗ ┅ ━━━━━━━━━━━ ┅ ━···▸`;
 
 A17.sendMessage(m.chat, {
             text: helpexitText,
@@ -9283,7 +9284,7 @@ SEWA :
 1 IP/Bulan : 15k
 UNLI IP Lifetime : 200k
 LICENSI OPEN SOUCE : 
-500 K (Recode Harga Terpisah)
+300K (Recode Harga Terpisah)
 ◇━━━━━━━━━━━━━━◇
 SCRIPT VPN PREMIUM BY PX
 OS Support
@@ -9373,12 +9374,8 @@ _*SERVER INDONESIA*_🇮🇩
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
 ◇━━━━━━━━━━━━━━━◇
-*Pembayaran*
-- DANA
-- QRIS ALLPAYMENT
-◇━━━━━━━━━━━━━━━◇
 Ketik:
-*pay* untuk informasi pembayaran.
+*.bayar* untuk membayar.
 ◇━━━━━━━━━━━━━━━◇`;
 
         // Membuat pesan dengan gambar lokal
