@@ -8612,15 +8612,15 @@ A17.sendMessage(m.chat, {
 ┏ ┅ ━━〔〄 *MENU UTAMA* 〄 〕━ ┅ 
 ┃           
 ┃  ⌯   ${prefix}list
-┃  ⌯   ${prefix}ordervpn
 ┃  ⌯   ${prefix}menuowner
 ┃  ⌯   ${prefix}menuserver
+┃  ⌯   ${prefix}autoscript 
+┃  ⌯   ${prefix}ordervpn
+┃  ⌯   ${prefix}ordervps
 ┃  ⌯   ${prefix}server
 ┃  ⌯   ${prefix}promo
 ┃  ⌯   ${prefix}harga
 ┃  ⌯   ${prefix}bayar
-┃  ⌯   ${prefix}vps
-┃  ⌯   ${prefix}autoscript 
 ┃
 ┏ ┅ ━〔 *MENU PPOB* 〕━ ┅
 ┃
@@ -9228,7 +9228,7 @@ Terimakasih`
         break;
 		
 		//HARGA VPS
-      case 'vps': case 'hargavps': {
+      case 'cvps': case 'hargavps': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         try {
