@@ -8625,9 +8625,15 @@ A17.sendMessage(m.chat, {
 ┏ ┅ ━〔 *MENU PPOB* 〕━ ┅
 ┃
 ┃  ⌯   ${prefix}topupdiamond
-┃  ⌯   ${prefix}kuotadata
 ┃  ⌯   ${prefix}isipulsa
 ┃  ⌯   ${prefix}tokenlistrik
+┃
+┏ ┅ ━〔 *MENU DOWNLOADER* 〕━ ┅
+┃
+┃  ⌯   ${prefix}tiktok
+┃  ⌯   ${prefix}tiktokmp3
+┃  ⌯   ${prefix}facebook
+┃  ⌯   ${prefix}instagram
 ┃
 ┏ ┅ ━〔 *THX TO..* 〕━ ┅
 ┃⌯ ALLAH SWT
