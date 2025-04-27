@@ -5879,7 +5879,6 @@ case 'group-event':
 
       //
       case 'igdl':
-      case 'instagram':
       case 'instagramreels':
       case 'igreels':
 
@@ -6115,7 +6114,7 @@ _Please choose the video quality_`
 
 
       ///
-      case 'fbdl': case 'fb': case 'facebook': case 'fbmp4': {
+      case 'fbdl': case 'fb': case 'facebok': case 'fbmp4': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!text) return reply(`Please provide the link!\n\nExample: ${prefix}facebook https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
