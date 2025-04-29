@@ -6441,7 +6441,7 @@ case 'music': {
         break;
 
 
-      case 'ytvd': case 'video': case 'ytvideo': case 'ytmp4': {
+      case 'ytvd': case 'video': case 'ytvideo': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "🍃", key: m.key } })
@@ -6460,7 +6460,7 @@ case 'music': {
 
 
       /*
-      case 'ytmp3': case 'ytmusic':  case 'ytmp4': case 'ytvideo': case 'ytdl':{
+      case 'ytmusic': case 'ytvideo': case 'ytdl':{
         if (isBan) return reply(mess.banned);	 			
       if (isBanChat) return reply(mess.bangc);
       if (!args[0]) return reply(mess.nolink)
@@ -6497,7 +6497,7 @@ case 'music': {
       */
 
 
-      case 'ytmp3': {
+      case 'ytmp': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "⌛", key: m.key } })
@@ -6510,7 +6510,7 @@ case 'music': {
         break;
 
 
-      case 'ytvd2': case 'ytmp4': {
+      case 'ytvd2': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "🍁", key: m.key } })
