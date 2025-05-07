@@ -3996,53 +3996,52 @@ break;
    ⌯  Total CPU Usage: ${totalCpuUsage}%
    ⌯  Platform : Linux
 
-┏ ┅ ━━〔〄 *MENU CREATE AKUN* 〄 〕━ ┅ 
-┃
-┃   ⌯     ${prefix}addssh
-┃   ⌯     ${prefix}trialssh
-┃   ⌯     ${prefix}addvmess
-┃   ⌯     ${prefix}trialvmess
-┃   ⌯     ${prefix}addvless
-┃   ⌯     ${prefix}trialvless
-┃   ⌯     ${prefix}addtrojan
-┃   ⌯     ${prefix}trialtrojan
-┃
-┏ ┅ ━━〔〄 *MENU DELETE AKUN* 〄 〕━ ┅ 
-┃
-┃   ⌯     ${prefix}delssh
-┃   ⌯     ${prefix}delvmess
-┃   ⌯     ${prefix}delvless
-┃   ⌯     ${prefix}deltrojan
-┃
-┏ ┅ ━━〔〄 *MENU RENEW AKUN* 〄 〕━ ┅ 
-┃
-┃   ⌯     ${prefix}renewssh
-┃   ⌯     ${prefix}renewvmess
-┃   ⌯     ${prefix}renewvless
-┃   ⌯     ${prefix}renewtrojan
-┃
-┏ ┅ ━━〔〄 *MENU DETAIL AKUN* 〄 〕━ ┅ 
-┃
-┃   ⌯     ${prefix}cekssh
-┃   ⌯     ${prefix}cekvmess
-┃   ⌯     ${prefix}cekvless
-┃   ⌯     ${prefix}cektrojan
-┃
-┏ ┅ ━━〔〄 *MENU OTHER* 〄 〕━ ┅ 
-┃
-┃   ⌯     ${prefix}memberssh
-┃   ⌯     ${prefix}memberxray
-┃   ⌯     ${prefix}loginssh
-┃   ⌯     ${prefix}loginxray
-┃   ⌯     ${prefix}cekservice
-┃   ⌯     ${prefix}cekexp
-┃
-┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ
+╭─❏  *MENU CREATE*
+│
+│ ▧  .addssh
+│ ▧  .addvmess
+│ ▧  .addvless
+│ ▧  .addtrojan
+│ ▧  .trialssh
+│ ▧  .trialvmess
+│ ▧  .trialvless
+│ ▧  .trialtrojan
+│ 
+├─❏  *MENU DELETE*
+│ 
+│ ▧  .delssh
+│ ▧  .delvmess
+│ ▧  .delvless
+│ ▧  .deltrojan
+│
+├─❏  *MENU RENEW*
+│ 
+│ ▧  .renewssh
+│ ▧  .renewvmess
+│ ▧  .renewvless
+│ ▧  .renewtrojan
+│ ▧  .instagram
+│
+├─❏  *AKUN DETAIL*
+│ 
+│ ▧  .cekssh
+│ ▧  .cekvmess
+│ ▧  .cekvless
+│ ▧  .cektrojan
+│ ▧  .instagram
+│
+├─❏  *OTHER MENU*
+│ 
+│ ▧  .memberssh
+│ ▧  .memberxray
+│ ▧  .loginssh
+│ ▧  .loginxray
+│ ▧  .cekservice
+│ ▧  .cekexp
+│
+└──────────────❏
 
-┏ ┅ ━〔 *THX TO..* ━━━〢
-┃⌯ ALLAH SWT
-┃⌯ ©PX STORE
-┗ ┅ ━━━━━━━━━━━ ┅ ━★᭄ꦿ᭄ꦿ`
+©2025 PX STORE`;
 
 A17.sendMessage(m.chat, {
             text: helpexitText,
@@ -6114,7 +6113,7 @@ _Please choose the video quality_`
 
 
       ///
-      case 'fbdl': case 'fb': case 'facebok': case 'fbmp4': {
+      case 'fbdl': case 'fb': case 'faceboook': case 'fbmp4': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!text) return reply(`Please provide the link!\n\nExample: ${prefix}facebook https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
@@ -8608,39 +8607,36 @@ A17.sendMessage(m.chat, {
    ⌯  Platform : Linux
           
           
-┏ ┅ ━━〔〄 *MENU UTAMA* 〄 〕━ ┅ 
-┃           
-┃  ⌯   ${prefix}list
-┃  ⌯   ${prefix}menuowner
-┃  ⌯   ${prefix}menuserver
-┃  ⌯   ${prefix}autoscript 
-┃  ⌯   ${prefix}ordervpn
-┃  ⌯   ${prefix}ordervps
-┃  ⌯   ${prefix}server
-┃  ⌯   ${prefix}promo
-┃  ⌯   ${prefix}harga
-┃  ⌯   ${prefix}bayar
-┃
-┏ ┅ ━〔 *MENU PPOB* 〕━ ┅
-┃
-┃  ⌯   ${prefix}topupdiamond
-┃  ⌯   ${prefix}isipulsa
-┃  ⌯   ${prefix}kuotadata
-┃  ⌯   ${prefix}tokenlistrik
-┃
-┏ ┅ ━〔 *MENU DOWNLOADER* 〕━ ┅
-┃
-┃  ⌯   ${prefix}tiktok
-┃  ⌯   ${prefix}tiktokmp3
-┃  ⌯   ${prefix}ytmp4
-┃  ⌯   ${prefix}ytmp3
-┃  ⌯   ${prefix}facebook
-┃  ⌯   ${prefix}instagram
-┃
-┏ ┅ ━〔 *THX TO..* 〕━ ┅
-┃⌯ ALLAH SWT
-┃⌯ ©PX STORE
-┗ ┅ ━━━━━━━━━━━ ┅ ━···▸`;
+╭─❏  *MENU VPN*
+│
+│ ▧  .list
+│ ▧  .harga
+│ ▧  .bayar 
+│ ▧  .promo
+│ ▧  .server
+│ ▧  .autoscript
+│ ▧  .ordervpn
+│ ▧  .ordervps
+│ ▧  .menuserver
+│ ▧  .menuowner
+│
+├─❏  *MENU PPOB*
+│ 
+│ ▧  .topupdiamond
+│ ▧  .tokenlistrik
+│ ▧  .kuotadata
+│ ▧  .isipulsa
+│
+├─❏  *DOWNLOAD*
+│ 
+│ ▧  .tiktok
+│ ▧  .ytmp3
+│ ▧  .ytmp4
+│ ▧  .facebook
+│ ▧  .instagram
+└─────────────❏
+
+©2025 PX STORE`;
 
 A17.sendMessage(m.chat, {
             text: helpexitText,
