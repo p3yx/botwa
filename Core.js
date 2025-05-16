@@ -3996,48 +3996,46 @@ break;
    ⌯  Total CPU Usage: ${totalCpuUsage}%
    ⌯  Platform : Linux
 
-╭─❏  *MENU CREATE*
+╭─❏  *MENU SERVER*
 │
-│ ▧  .addssh
-│ ▧  .addvmess
-│ ▧  .addvless
-│ ▧  .addtrojan
-│ ▧  .trialssh
-│ ▧  .trialvmess
-│ ▧  .trialvless
-│ ▧  .trialtrojan
+│ ▧  ${prefix}addssh
+│ ▧  ${prefix}addvmess
+│ ▧  ${prefix}addvless
+│ ▧  ${prefix}addtrojan
+│ ▧  ${prefix}trialssh
+│ ▧  ${prefix}trialvmess
+│ ▧  ${prefix}trialvless
+│ ▧  ${prefix}trialtrojan
 │ 
 ├─❏  *MENU DELETE*
 │ 
-│ ▧  .delssh
-│ ▧  .delvmess
-│ ▧  .delvless
-│ ▧  .deltrojan
+│ ▧  ${prefix}delssh
+│ ▧  ${prefix}delvmess
+│ ▧  ${prefix}delvless
+│ ▧  ${prefix}deltrojan
 │
 ├─❏  *MENU RENEW*
 │ 
-│ ▧  .renewssh
-│ ▧  .renewvmess
-│ ▧  .renewvless
-│ ▧  .renewtrojan
-│ ▧  .instagram
+│ ▧  ${prefix}renewssh
+│ ▧  ${prefix}renewvmess
+│ ▧  ${prefix}renewvless
+│ ▧  ${prefix}renewtrojan
 │
 ├─❏  *AKUN DETAIL*
 │ 
-│ ▧  .cekssh
-│ ▧  .cekvmess
-│ ▧  .cekvless
-│ ▧  .cektrojan
-│ ▧  .instagram
+│ ▧  ${prefix}cekssh
+│ ▧  ${prefix}cekvmess
+│ ▧  ${prefix}cekvless
+│ ▧  ${prefix}cektrojan
 │
 ├─❏  *OTHER MENU*
 │ 
-│ ▧  .memberssh
-│ ▧  .memberxray
-│ ▧  .loginssh
-│ ▧  .loginxray
-│ ▧  .cekservice
-│ ▧  .cekexp
+│ ▧  ${prefix}memberssh
+│ ▧  ${prefix}memberxray
+│ ▧  ${prefix}loginssh
+│ ▧  ${prefix}loginxray
+│ ▧  ${prefix}cekservice
+│ ▧  ${prefix}cekexp
 │
 └──────────────❏
 
@@ -5879,6 +5877,7 @@ case 'group-event':
       //
       case 'igdl':
       case 'instagramreels':
+      case 'instagram':
       case 'igreels':
 
         {
@@ -5913,7 +5912,7 @@ case 'group-event':
 
 
       // ///
-      // case 'igdl': case 'instagramreels': case 'igreels': {
+      // case 'igdl': case 'instagramreels': case 'instagram': case 'igreels': {
       // if (isBan) return reply(mess.banned);	 			
       // if (isBanChat) return reply(mess.bangc);
       // A17.sendMessage(from, { react: { text: "🪄" , key: m.key }})
@@ -6113,7 +6112,7 @@ _Please choose the video quality_`
 
 
       ///
-      case 'fbdl': case 'fb': case 'faceboook': case 'fbmp4': {
+      case 'fbdl': case 'fb': case 'facebook': case 'fbmp4': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!text) return reply(`Please provide the link!\n\nExample: ${prefix}facebook https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
@@ -6202,7 +6201,7 @@ _Click the button below to download_`
 
 
       ///
-      case 'tiktokk': {
+      case 'tiktok': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!q) return reply('Please provide the link !')
@@ -8609,31 +8608,27 @@ A17.sendMessage(m.chat, {
           
 ╭─❏  *MENU VPN*
 │
-│ ▧  .list
-│ ▧  .harga
-│ ▧  .bayar 
-│ ▧  .promo
-│ ▧  .server
-│ ▧  .autoscript
-│ ▧  .ordervpn
-│ ▧  .ordervps
-│ ▧  .menuserver
-│ ▧  .menuowner
+│ ▧  ${prefix}list
+│ ▧  ${prefix}harga
+│ ▧  ${prefix}ordervps
+│ ▧  ${prefix}promo
+│ ▧  ${prefix}server
+│ ▧  ${prefix}autoscript
+│ ▧  ${prefix}menuserver
+│ ▧  ${prefix}menuowner
 │
 ├─❏  *MENU PPOB*
 │ 
-│ ▧  .topupdiamond
-│ ▧  .tokenlistrik
-│ ▧  .kuotadata
-│ ▧  .isipulsa
+│ ▧  ${prefix}topupdiamond
+│ ▧  ${prefix}tokenlistrik
+│ ▧  ${prefix}kuotadata
+│ ▧  ${prefix}isipulsa
 │
-├─❏  *DOWNLOAD*
+├─❏  *PAYMENT*
 │ 
-│ ▧  .tiktok
-│ ▧  .ytmp3
-│ ▧  .ytmp4
-│ ▧  .facebook
-│ ▧  .instagram
+│ ▧  ${prefix}sendpay
+│ ▧  dana
+│ ▧  pay
 └─────────────❏
 
 ©2025 PX STORE`;
@@ -9232,7 +9227,7 @@ Terimakasih`
         break;
 		
 		//HARGA VPS
-      case 'cvps': case 'hargavps': {
+      case 'cvps': case 'ordervps': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         try {
@@ -9363,8 +9358,6 @@ case 'harga': case 'hargavpn': {
 ◇━━━━━━━━━━━━━━━◇
 *List Harga VPN premium*
 ◇━━━━━━━━━━━━━━━◇
-_*SERVER SINGAPORE*_🇸🇬
-
 *SSH* _5K | 15 Hari | 1 devices_
 *SSH* _10K | 30 Hari | 2 devices_
 *SSH* _18K | 60 Hari | 2 devices_
@@ -9373,20 +9366,10 @@ _*SERVER SINGAPORE*_🇸🇬
 *V2RAY* _13K | 30 Hari | 2 devices_
 *V2RAY* _25K | 60 hari | 2 devices_
 ◇━━━━━━━━━━━━━━━◇
-_*SERVER INDONESIA*_🇮🇩
-
-*SSH* _6K | 15 Hari | 1 devices_
-*SSH* _11K | 30 Hari | 2 devices_
-*SSH* _20K | 60 Hari | 2 devices_
-
-*V2RAY* _8K | 15 Hari | 1 devices_
-*V2RAY* _15K | 30 Hari | 2 devices_
-*V2RAY* _28K | 60 Hari | 2 devices_
-◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
 ◇━━━━━━━━━━━━━━━◇
 Ketik:
-*.bayar* untuk membayar.
+*pay* untuk bayar.
 ◇━━━━━━━━━━━━━━━◇`;
 
         // Membuat pesan dengan gambar lokal
