@@ -38,7 +38,7 @@
         "@hapi/boom": "^10.0.1",
         "@shineiichijo/mal-news-scraper": "^0.0.2",
         "@shineiichijo/marika": "^3.0.1",
-        "@whiskeysockets/baileys": "6.7.9",
+        "@whiskeysockets/baileys": "github:r-serex/Baileys",
         "anime-wallpaper": "^1.1.1",
         "awesome-phonenumber": "^4.4.0",
         "axios": "^0.24.0",
