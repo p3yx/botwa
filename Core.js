@@ -9358,13 +9358,16 @@ case 'harga': case 'hargavpn': {
 ◇━━━━━━━━━━━━━━━◇
 *List Harga VPN premium*
 ◇━━━━━━━━━━━━━━━◇
-*SSH* _5K | 15 Hari | 1 devices_
-*SSH* _10K | 30 Hari | 2 devices_
-*SSH* _18K | 60 Hari | 2 devices_
+*15 hari - 5.000 1hp*
+*30 hari - 10.000 1hp*
+*30 hari - 15.000 2hp*
+*30 hari - 20.000 3hp*
 
-*V2RAY* _7K | 15 Hari | 1 devices_
-*V2RAY* _13K | 30 Hari | 2 devices_
-*V2RAY* _25K | 60 hari | 2 devices_
+*60 hari - 18.000 1hp*
+*60 hari - 27.000 2hp*
+*60 hari - 35.000 3hp*
+
+*bandwith unlimited harga sesuai kualitas bergaransi*
 ◇━━━━━━━━━━━━━━━◇
 *Membeli artinya Setuju 👍 Jadilah Pembeli Yang Bijak* 🙂
 ◇━━━━━━━━━━━━━━━◇
