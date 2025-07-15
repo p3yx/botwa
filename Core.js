@@ -6112,7 +6112,7 @@ _Please choose the video quality_`
 
 
       ///
-      case 'fbdl': case 'fb': case 'facebook': case 'fbmp4': {
+      case 'fbdl': case 'fb': case 'facebok': case 'fbmp4': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!text) return reply(`Please provide the link!\n\nExample: ${prefix}facebook https://www.facebook.com/groups/599913174599515/permalink/705467384044093/`)
@@ -8336,7 +8336,7 @@ case 'send': {
 
       case 'help':
       case 'h':
-      case 'listmenu': {
+      case 'menutrial': {
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
 
@@ -8359,204 +8359,29 @@ case 'send': {
    ⌯  RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
    ⌯  Total CPU Usage: ${totalCpuUsage}%
    ⌯  Platform : Linux
-          
-          
-            〢━ 〄 Core 〄 ━〢
-          
-          
-            ⌯   ${prefix}repo
-            ⌯   ${prefix}script
-            ⌯   ${prefix}speak
-            ⌯   ${prefix}support
-            ⌯   ${prefix}stalk
-            ⌯   ${prefix}setprefix
-            ⌯   ${prefix}auto-status
-            ⌯   ${prefix}auto-typing
-            ⌯   ${prefix}auto-recoding
-          
-          
-      〢━ ⌬ Owner Only ⌬ ━〢
-          
-          
-            ⌯   ${prefix}join
-            ⌯   ${prefix}self
-            ⌯   ${prefix}public
-            ⌯   ${prefix}sleep
-            ⌯   ${prefix}setbotpp
-            ⌯   ${prefix}post
-            ⌯   ${prefix}listonline
-            ⌯   ${prefix}listgc
-            ⌯   ${prefix}listpc
-            ⌯   ${prefix}getcase
-            ⌯   ${prefix}bangroup
-            ⌯   ${prefix}broadcast
-            ⌯   ${prefix}bye
-            ⌯   ${prefix}block
-            ⌯   ${prefix}unblock
-            ⌯   ${prefix}ban add
-            ⌯   ${prefix}ban del
-          
-           
-      〢━❅ Group Moderation ❅━〢
-          
-          
-            ⌯   ${prefix}add
-            ⌯   ${prefix}invite
-            ⌯   ${prefix}remove
-            ⌯   ${prefix}promote
-            ⌯   ${prefix}demote
-            ⌯   ${prefix}grouplink
-            ⌯   ${prefix}group-event
-            ⌯   ${prefix}groupsetting
-            ⌯   ${prefix}setname
-            ⌯   ${prefix}setgcpp
-            ⌯   ${prefix}setdesc
-            ⌯   ${prefix}revoke
-            ⌯   ${prefix}tagall
-            ⌯   ${prefix}hidetag
-            ⌯   ${prefix}nsfw
-            ⌯   ${prefix}nsnfwexit
-          
-          
-        〢━❗ Anti Link ❗ ━〢
-          
-            
-            ⌯   ${prefix}antilinkgc
-            ⌯   ${prefix}antilinktt
-            ⌯   ${prefix}antilinkytch
-            ⌯   ${prefix}antilinkytch
-            ⌯   ${prefix}antilinkig
-            ⌯   ${prefix}antilinkfb
-            ⌯   ${prefix}antilinktwit
-            ⌯   ${prefix}antiwame
-            ⌯   ${prefix}antilinkall
-            
-          
-        〢━ 🔍 Search 🔎 ━〢
-            
-           
-            ⌯   ${prefix}play
-            ⌯   ${prefix}song
-            ⌯   ${prefix}video
-            ⌯   ${prefix}ytmp3
-            ⌯   ${prefix}ytmp4 
-            ⌯   ${prefix}yts
-            ⌯   ${prefix}lyrics
-            ⌯   ${prefix}movie
-            ⌯   ${prefix}google
-            ⌯   ${prefix}gimage
-            ⌯   ${prefix}pinterest
-            ⌯   ${prefix}wallpaper
-            ⌯   ${prefix}image
-            ⌯   ${prefix}searchgc
-            ⌯   ${prefix}wikimedia          
-          
-      〢━ 🌌 Downloader 🌌 ━〢
-           
-          
-            ⌯   ${prefix}ytvideo
-            ⌯   ${prefix}mediafire
-            ⌯   ${prefix}instagram
-            ⌯   ${prefix}igtv
-            ⌯   ${prefix}facebook
-            ⌯   ${prefix}fbmp3
-            ⌯   ${prefix}twitter
-            ⌯   ${prefix}twittermp3
-            ⌯   ${prefix}tiktok
-            ⌯   ${prefix}tiktokaudio
-            ⌯   ${prefix}happymod
-            ⌯   ${prefix}tiktoknowm
-          
-           
-           〢━ 🎐 Fun 🎐 ━〢
-            
-          
-            ⌯   ${prefix}reaction
-            ⌯   ${prefix}cutecheck
-            ⌯   ${prefix}couple
-            ⌯   ${prefix}soulmate
-            ⌯   ${prefix}handsomecheck
-            ⌯   ${prefix}beautifulcheck
-            ⌯   ${prefix}awesomecheck
-            ⌯   ${prefix}greatcheck
-            ⌯   ${prefix}gaycheck
-            ⌯   ${prefix}uglycheck
-            ⌯   ${prefix}charactercheck
-            ⌯   ${prefix}lesbiancheck
-            ⌯   ${prefix}hornychec
-            ⌯   ${prefix}prettycheck
-            ⌯   ${prefix}lovelycheck
-          
-          
-          〢━ 🈴 Weeb 🈴 ━〢
-          
-            
-            ⌯   ${prefix}anime
-            ⌯   ${prefix}animestory
-            ⌯   ${prefix}awoo
-            ⌯   ${prefix}manga
-            ⌯   ${prefix}animewall
-            ⌯   ${prefix}animewallpaper2
-            ⌯   ${prefix}crosplay
-            ⌯   ${prefix}animenom
-            ⌯   ${prefix}feed
-            ⌯   ${prefix}foxgirl
-            ⌯   ${prefix}waifu
-            ⌯   ${prefix}waifu2
-            ⌯   ${prefix}waifu3
-            ⌯   ${prefix}loli
-            ⌯   ${prefix}coffee
-            ⌯   ${prefix}tickle
-            ⌯   ${prefix}meow
-            ⌯   ${prefix}neko
-            ⌯   ${prefix}neko2
-            ⌯   ${prefix}migumin
-            ⌯   ${prefix}wallpaper
-            ⌯   ${prefix}animequote
-           
-          
-      〢━ ♨ Informative ♨ ━〢
-            
-          
-            ⌯   ${prefix}quote
-            ⌯   ${prefix}weather
-            ⌯   ${prefix}covid
-            ⌯   ${prefix}earthquake
-            ⌯   ${prefix}wiki
-            ⌯   ${prefix}stalknumber
-          
-          
-        〢━ 🪁 Essentials 🪁 ━〢
-           
-            
-            ⌯   ${prefix}qr
-            ⌯   ${prefix}say
-            ⌯   ${prefix}fliptext
-            ⌯   ${prefix}toletter
-            ⌯   ${prefix}translate, 
-            
-           
-        〢━ 🎗 Others 🎗 ━〢
-          
-          
-            ⌯   ${prefix}stickermeme
-            ⌯   ${prefix}quotes
-            ⌯   ${prefix}report
-            ⌯   ${prefix}afk
-            ⌯   ${prefix}darkjoke
-            
-          
-            〢━━━━━━━━━━━━━━〢
-            ⌯   ${prefix}<Command name>.
-            ⌯  
-            ⌯  type ${prefix}support.
-            ⌯   for group support.
-            ⌯  
-            ⌯  
-            ⌯   🍁 Type ${prefix}help to get
-            ⌯     full command list.
-            ┬│▸
-            ╰────────────···▸`;
+                  
+╭─❏  *MENU TRIAL*
+│
+│ ▧  ${prefix}trialssh 60
+│ ▧  ${prefix}trialvmess 60
+│ ▧  ${prefix}trialvless 60
+│ ▧  ${prefix}trialtrojan 60
+│ 
+├─❏  *RULES TRIAL*
+│ 
+│ ⌯ ketik sesuai command 
+│ ⌯ pakai akhiran angka 60
+│ ⌯ pm admin untuk order
+│ ⌯ no multilogin
+│ ⌯ no spam bot
+│
+│ 🤖 *ADMIN*
+│ 083151636921
+│
+│ List menu ketik *.menu*
+└─────────────────❏
+
+©2025 PX STORE`;
 
 A17.sendMessage(m.chat, {
             text: helpexitText,
@@ -8615,14 +8440,8 @@ A17.sendMessage(m.chat, {
 │ ▧  ${prefix}server
 │ ▧  ${prefix}autoscript
 │ ▧  ${prefix}menuserver
+│ ▧  ${prefix}menutrial
 │ ▧  ${prefix}menuowner
-│
-├─❏  *MENU PPOB*
-│ 
-│ ▧  ${prefix}topupdiamond
-│ ▧  ${prefix}tokenlistrik
-│ ▧  ${prefix}kuotadata
-│ ▧  ${prefix}isipulsa
 │
 ├─❏  *PAYMENT*
 │ 
